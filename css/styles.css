@@ -81,7 +81,7 @@ li h2 {
 	margin-top: 0.1%;
 	margin-left: 15.5%;
 	position: absolute;
-	z-index: 1;
+	z-index: 101;
 }
 
 #logo-img {
@@ -117,7 +117,7 @@ li h2 {
 }
 
 .navbar-fixed-top {
-	z-index: 0;
+	z-index: 100;
 }
 
 .navbar-fixed-top .navbar-collapse {
@@ -297,7 +297,7 @@ a, a:hover, a:focus, a:visited {
 		margin-top: 0.1%;
 		margin-left: 5%;
 		position: fixed;
-		z-index: 1;
+		z-index: 101;
 	}
 
 	#logo-img {
