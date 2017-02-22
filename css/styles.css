@@ -80,7 +80,7 @@ li h2 {
 	float: left;
 	margin-top: 0.1%;
 	margin-left: 15.5%;
-	position: absolute;
+	position: fixed;
 	z-index: 101;
 }
 
@@ -100,7 +100,9 @@ li h2 {
 	height: 2.7vw;
 	background-color: transparent;
 	float: left;
-	margin-top: -0.2vw;
+	margin-top: 4.2vw;
+	position: fixed;
+	z-index: 100;
 }
 
 #collapsable-nav ul {
