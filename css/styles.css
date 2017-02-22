@@ -186,10 +186,12 @@ body {
 	line-height: 1.2vw;
 }
 
-a, a:hover, a:focus, a:visited {
+a:link, a:visited, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
   display: block;
+  border: 0;
+  outline: none;
 }
 
 .container {
