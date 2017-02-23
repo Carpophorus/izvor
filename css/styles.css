@@ -289,15 +289,251 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 57vw;
 }
+#index11 {
+	background: url('../img/proizvedeno u srbiji.png') no-repeat;
+	background-size: 5vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 7vw;
+	margin-left: 73%;
+	width: 5vw;
+	height: 5vw;
+}
 
 #about1 {
-
+	background: url('../img/o-nama/about1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
 }
 #about2 {
-
+	background: url('../img/o-nama/about2.png') no-repeat;
+	background-size: 100% 57vw; /* remove, auto resize, cover */
+	background-position: center;
+	width: 100%;
+	height: 57vw;
 }
 #about3 {
+	background: url('../img/o-nama/about3.png') no-repeat;
+	background-size: 125% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 65vw;
+}
 
+#history1 {
+	background: url('../img/istorijat/istorijat_kolor_1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#history2 {
+	background: url('../img/istorijat/history2.png') no-repeat;
+	background-size: 100% 57vw; /* remove, auto resize, cover */
+	background-position: center;
+	width: 100%;
+	height: 57vw;
+}
+#history3 {
+	background: url('../img/istorijat/history3.png') no-repeat;
+	background-size: 100% 86vw;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 70vw;
+}
+
+#new1 {
+	background: url('../img/sta-je-novo/new1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#new2 {
+	background: url('../img/sta-je-novo/new2.png') no-repeat;
+	background-size: 100% 174vw;
+	background-position: center;
+	width: 100%;
+	height: 174vw;
+}
+#new3 {
+	background: url('../img/sta-je-novo/new3.png') no-repeat;
+	background-size: 140% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 40vw;
+}
+
+#bela1 {
+	background: url('../img/bela-peciva/bela1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#bela2 {
+	background: url('../img/bela-peciva/bela2.png') no-repeat;
+	background-size: 100% 230vw;
+	background-position: center;
+	width: 100%;
+	height: 230vw;
+}
+#bela3 {
+	background: url('../img/bela-peciva/bela3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
+#hleb1 {
+	background: url('../img/hleb/hleb1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#hleb2 {
+	background: url('../img/hleb/hleb2.png') no-repeat;
+	background-size: 100% 117vw;
+	background-position: center;
+	width: 100%;
+	height: 117vw;
+}
+#hleb3 {
+	background: url('../img/hleb/hleb3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 40vw;
+}
+
+#nika1 {
+	background: url('../img/nika/nika1.png') no-repeat;
+	background-size: 100% 38vw;
+	background-position: center;
+	width: 100%;
+	height: 38vw;
+}
+#nika2 {
+	background: url('../img/nika/nika2.png') no-repeat;
+	background-size: 100% 172vw;
+	background-position: center;
+	width: 100%;
+	height: 103vw;
+}
+#nika3 {
+	background: url('../img/nika/nika3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 27vw;
+}
+#nika4 {
+	background: url('../img/nika/nika large.png') no-repeat;
+	background-size: 24vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 10vw;
+	margin-left: 25%;
+	width: 20vw;
+	height: 20vw;
+}
+#nika5 {
+	background: url('../img/proizvedeno u srbiji.png') no-repeat;
+	background-size: 7vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 2vw;
+	margin-left: 74%;
+	width: 7vw;
+	height: 4.7vw;
+}
+#nika6 {
+	background: url('../img/nika/cinija_krem.png') no-repeat;
+	background-size: 35vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 17vw;
+	margin-left: 14%;
+	width: 45vw;
+	height: 20vw;
+}
+#nika7 {
+	background: url('../img/nika/krem.png') no-repeat;
+	background-size: 35vw auto;
+	background-position: center;
+	position: absolute;
+	margin-top: 17vw;
+	margin-left: 47%;
+	width: 35vw;
+	height: 20vw;
+}
+#nika8 {
+	background: url('../img/nika/cinija_kajsija.png') no-repeat;
+	background-size: 30vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 7vw;
+	margin-left: 12%;
+	width: 45vw;
+	height: 20vw;
+}
+#nika9 {
+	background: url('../img/nika/kajsija.png') no-repeat;
+	background-size: 35vw auto;
+	background-position: center;
+	position: absolute;
+	margin-top: 44vw;
+	margin-left: 47%;
+	width: 35vw;
+	height: 20vw;
+}
+#nika10 {
+	background: url('../img/nika/cinija_vanila.png') no-repeat;
+	background-size: 35vw auto;
+	background-position: center;
+	float: left;
+	margin-top: 7vw;
+	margin-left: 16%;
+	width: 45vw;
+	height: 20vw;
+}
+#nika11 {
+	background: url('../img/nika/vanila.png') no-repeat;
+	background-size: 35vw auto;
+	background-position: center;
+	position: absolute;
+	margin-top: 72vw;
+	margin-left: 47%;
+	width: 35vw;
+	height: 20vw;
+}
+#nika12, #nika13, #nika14 {
+	background: url('../img/nika/nika large.png') no-repeat;
+	background-size: 10vw auto;
+	background-position: center;
+	position: absolute;
+	margin-left: 25%;
+	width: 10vw;
+	height: 10vw;
+}
+#nika12 {
+	margin-top: 31vw;
+}
+#nika13 {
+	margin-top: 57.6vw;
+}
+#nika14 {
+	margin-top: 85.7vw;
 }
 
 /* END OTHER*/
