@@ -406,7 +406,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 117vw;
 }
-#hleb3 {
+#hleb3, #pogace3 {
 	background: url('../img/hleb/hleb3.png') no-repeat;
 	background-size: 100% auto;
 	background-position: bottom;
@@ -534,6 +534,51 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #nika14 {
 	margin-top: 85.7vw;
+}
+
+#pite1 {
+	background: url('../img/pite/pite1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#pite2 {
+	background: url('../img/pite/pite2.png') no-repeat;
+	background-size: 100% 172vw;
+	background-position: center;
+	width: 100%;
+	height: 172vw;
+}
+#pite22 {
+	background: url('../img/pite/pite22.png') no-repeat;
+	background-size: 100% 172vw;
+	background-position: center;
+	width: 100%;
+	height: 172vw;
+}
+#pite3 {
+	background: url('../img/pite/pite3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
+#pogace1 {
+	background: url('../img/pogace/pogace1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#pogace2 {
+	background: url('../img/pogace/pogace2.png') no-repeat;
+	background-size: 100% 183vw;
+	background-position: center;
+	width: 100%;
+	height: 183vw;
 }
 
 /* END OTHER*/
