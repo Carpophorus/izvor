@@ -581,6 +581,142 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 183vw;
 }
 
+#half1 {
+	background: url('../img/polupeceni-program/half1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#half2 {
+	background: url('../img/polupeceni-program/half2.png') no-repeat;
+	background-size: 100% 172vw;
+	background-position: center;
+	width: 100%;
+	height: 172vw;
+}
+#half3 {
+	background: url('../img/polupeceni-program/half3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 30vw;
+}
+
+#salty1 {
+	background: url('../img/slana-peciva/salty1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#salty2 {
+	background: url('../img/slana-peciva/salty2.png') no-repeat;
+	background-size: 100% 169vw;
+	background-position: center;
+	width: 100%;
+	height: 169vw;
+}
+#salty22 {
+	background: url('../img/slana-peciva/salty22.png') no-repeat;
+	background-size: 100% 193vw;
+	background-position: center;
+	width: 100%;
+	height: 193vw;
+}
+#salty3 {
+	background: url('../img/slana-peciva/salty3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 22vw;
+}
+
+#sara1 {
+	background: url('../img/slatka-peciva/sara1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#sara2 {
+	background: url('../img/slatka-peciva/sara2.png') no-repeat;
+	background-size: 100% 244vw;
+	background-position: center;
+	width: 100%;
+	height: 244vw;
+}
+#sara3 {
+	background: url('../img/slatka-peciva/sara3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
+#freeze1 {
+	background: url('../img/smrznuti-program/freeze1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#freeze2 {
+	background: url('../img/smrznuti-program/freeze2.png') no-repeat;
+	background-size: 100% 244vw;
+	background-position: center;
+	width: 100%;
+	height: 244vw;
+}
+#freeze22 {
+	background: url('../img/smrznuti-program/freeze22.png') no-repeat;
+	background-size: 100% 234vw;
+	background-position: center;
+	width: 100%;
+	height: 234vw;
+}
+#freeze3 {
+	background: url('../img/smrznuti-program/freeze3.png') no-repeat;
+	background-size: 130% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
+#products1 {
+	background: url('../img/proizvodi/products1.png') no-repeat;
+	background-size: 100% 29vw;
+	background-position: center;
+	width: 100%;
+	height: 29vw;
+}
+#products2 {
+	background: url('../img/proizvodi/products2.png') no-repeat;
+	background-size: 100% 244vw;
+	background-position: center;
+	width: 100%;
+	height: 244vw;
+}
+#products3 {
+	background: url('../img/proizvodi/products3.png') no-repeat;
+	background-size: 100% 234vw;
+	background-position: center;
+	width: 100%;
+	height: 234vw;
+}
+#products4 {
+	background: url('../img/proizvodi/products4.png') no-repeat;
+	background-size: 130% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
 /* END OTHER*/
 
 /* MEDIA */
