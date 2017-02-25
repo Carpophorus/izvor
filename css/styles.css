@@ -282,7 +282,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 49vw;
 }
-#index10 {
+#index10, #products3 {
 	background: url('../img/index/index10.png') no-repeat;
 	background-size: 100% 57vw;
 	background-position: center;
@@ -696,25 +696,29 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #products2 {
 	background: url('../img/proizvodi/products2.png') no-repeat;
-	background-size: 100% 244vw;
+	background-size: 100% 149vw;
 	background-position: center;
 	width: 100%;
-	height: 244vw;
-}
-#products3 {
-	background: url('../img/proizvodi/products3.png') no-repeat;
-	background-size: 100% 234vw;
-	background-position: center;
-	width: 100%;
-	height: 234vw;
+	height: 80vw;
 }
 #products4 {
 	background: url('../img/proizvodi/products4.png') no-repeat;
-	background-size: 130% auto;
-	background-position: bottom;
-	background-attachment: fixed;
-	width: 100%;
-	height: 20vw;
+	background-size: 100% auto;
+	background-position: center;
+	position: absolute;
+	margin-top: -4.85vw;
+	margin-left: 15%;
+	width: 70%;
+	height: 40vw;
+}
+#products5 {
+	background: url('../img/proizvodi/products5.png') no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	position: absolute;
+	margin-left: 15%;
+	width: 5%;
+	height: 13vw;
 }
 
 /* END OTHER*/
