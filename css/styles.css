@@ -1033,6 +1033,33 @@ a:link, a:visited, a:hover, a:focus, a:active {
   position: absolute;
 }
 
+/* index */
+#i2dots {
+	height: 7.3vw;
+	margin-left: 50%;
+}
+#i2lines1 {
+	position: absolute;
+	height: 4vw;
+	border-right: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
+	margin-top: 10vw;
+	margin-left: 20.55%;
+	width: 30%;
+}
+#i2lines2 {
+	position: absolute;
+	height: 6.5vw;
+	border-left: 0.1vw solid white;
+	margin-top: 14vw;
+	margin-left: 20.55%;
+	width: 30%;
+}
+#i2circle {
+	margin-top: 7.7vw;
+	margin-left: 49.55%;
+}
+
 /* END ELEMENTS*/
 
 /* END OTHER*/
