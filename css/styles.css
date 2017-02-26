@@ -419,10 +419,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #history2 {
 	background: url('../img/istorijat/history2.png') no-repeat;
-	background-size: 100% 57vw; /* remove, auto resize, cover */
+	background-size: 100% 100%;
 	background-position: center;
 	width: 100%;
-	height: 57vw;
+	height: 70vw;
 }
 #history3 {
 	background: url('../img/istorijat/history3.png') no-repeat;
@@ -431,6 +431,98 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-attachment: fixed;
 	width: 100%;
 	height: 70vw;
+}
+.history-slideshow-1-container {
+	height: 29vw;
+	width: 100%;
+	float: right;
+	margin: 3vw 0 3vw 0;
+	position: relative;
+}
+@-webkit-keyframes fade-history {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade-history {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    100% {opacity: 0;}
+}
+.history-slideshow-1, .history-slideshow-2 {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	animation-name: fade-history;
+	-webkit-animation-name: fade-history;
+	animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 20s;
+    -webkit-animation-duration: 20s;
+}
+#history-slideshow-1-2 {
+	background: url('../img/istorijat/istorijat_kolor_2.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+#history-slideshow-1-3 {
+	background: url('../img/istorijat/istorijat_kolor_3.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -4s;
+}
+#history-slideshow-1-4 {
+	background: url('../img/istorijat/istorijat_kolor_4.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -8s;
+}
+#history-slideshow-1-5 {
+	background: url('../img/istorijat/istorijat_kolor_5.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -12s;
+}
+#history-slideshow-1-6 {
+	background: url('../img/istorijat/istorijat_kolor_6.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -16s;
+}
+.history-slideshow-2-container {
+
+}
+#history-slideshow-2-7 {
+	background: url('../img/istorijat/istorijat_kolor_7.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+#history-slideshow-2-8 {
+	background: url('../img/istorijat/istorijat_kolor_8.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -4s;
+}
+#history-slideshow-2-9 {
+	background: url('../img/istorijat/istorijat_kolor_9.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -8s;
+}
+#history-slideshow-2-10 {
+	background: url('../img/istorijat/istorijat_kolor_10.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -12s;
+}
+#history-slideshow-2-11 {
+	background: url('../img/istorijat/istorijat_kolor_11.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -16s;
 }
 
 #new1 {
