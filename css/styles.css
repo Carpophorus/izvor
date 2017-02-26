@@ -697,7 +697,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #products2 {
 	background: url('../img/proizvodi/products2.png') no-repeat;
 	background-size: 100% 149vw;
-	background-position: center;
+	background-position: bottom;
 	width: 100%;
 	height: 61vw;
 }
@@ -829,6 +829,32 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 18.7vw;
 	border-bottom: 0.14vw solid white;
 }
+
+/* ELEMENTS */
+
+.circle {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 1vw;
+  background-color: #ff9933;
+  position: absolute;
+}
+
+.horizontal-squares {
+  background: url('../img/white square.png') repeat;
+  background-size: 1vw 1vw;
+  height: 1vw;
+  position: absolute;
+}
+
+.vertical-squares {
+  background: url('../img/white square.png') repeat;
+  background-size: 1vw 1vw;
+  width: 1vw;
+  position: absolute;
+}
+
+/* END ELEMENTS*/
 
 /* END OTHER*/
 
