@@ -699,7 +699,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-size: 100% 149vw;
 	background-position: center;
 	width: 100%;
-	height: 80vw;
+	height: 61vw;
 }
 #products4 {
 	background: url('../img/proizvodi/products4.png') no-repeat;
@@ -719,6 +719,115 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	margin-left: 15%;
 	width: 5%;
 	height: 13vw;
+}
+#line1 {
+	width: 70%;
+	border-bottom: 0.1vw solid white;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 30.3vw;
+}
+#line2 {
+	width: 70%;
+	border-bottom: 0.1vw solid white;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 60vw;
+}
+#pnav {
+	position: absolute;
+	margin-top: 75vh;
+	margin-left: 15%;
+	width: 70%;
+}
+#pnav a {
+	float: left;
+	width: 10%;
+	margin-right: 1.25%;
+
+}
+#pnav #last {
+	margin-right: 0;
+}
+#pnav a div {
+	float: none;
+}
+#ptext {
+	padding-top: 0.7vw;
+	text-align: center;
+	width: 100%;
+}
+#pp1 {
+	background: url('../img/proizvodi/pp1.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp2 {
+	background: url('../img/proizvodi/pp2.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp3 {
+	background: url('../img/proizvodi/pp3.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp4 {
+	background: url('../img/proizvodi/pp4.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp5 {
+	background: url('../img/proizvodi/pp5.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp6 {
+	background: url('../img/proizvodi/pp6.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp7 {
+	background: url('../img/proizvodi/pp7.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp8 {
+	background: url('../img/proizvodi/pp8.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
+}
+#pp9 {
+	background: url('../img/proizvodi/pp9.png') no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	width: 100%;
+	height: 18.7vw;
+	border-bottom: 0.14vw solid white;
 }
 
 /* END OTHER*/
