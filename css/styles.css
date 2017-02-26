@@ -220,7 +220,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #index2 {
 	background: url('../img/index/index2.png') no-repeat;
-	background-size: 100% 100vw;
+	background-size: 110% auto;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
@@ -233,10 +233,16 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 30vw;
+	-webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 #index4 {
 	background: url('../img/index/index4.png') no-repeat;
-	background-size: 100% 100vw;
+	background-size: 110% auto;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
@@ -252,7 +258,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #index6 {
 	background: url('../img/index/index6.png') no-repeat;
-	background-size: 100% 100vw;
+	background-size: 110% auto;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
@@ -268,7 +274,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #index8 {
 	background: url('../img/index/index8.png') no-repeat;
-	background-size: 100% 100vw;
+	background-size: 110% auto;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
@@ -313,6 +319,8 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 57vw;
+	padding: 5vw;
+	text-align: justify;
 }
 #about3 {
 	background: url('../img/o-nama/about3.png') no-repeat;
@@ -321,6 +329,85 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-attachment: fixed;
 	width: 100%;
 	height: 65vw;
+}
+.about-slideshow-container {
+	height: 35vw;
+	width: 50vw;
+	float: right;
+	margin: 3vw;
+	margin-top: 0;
+	position: relative;
+}
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    12.5% {opacity: 1;}
+    25% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade-about {
+    0% {opacity: 0;}
+    12.5% {opacity: 1;}
+    25% {opacity: 0;}
+    100% {opacity: 0;}
+}
+.about-slideshow {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	animation-name: fade-about;
+	-webkit-animation-name: fade-about;
+	animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 40s;
+    -webkit-animation-duration: 40s;
+}
+#about-slideshow-1 {
+	background: url('../img/o-nama/desno_1.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+#about-slideshow-2 {
+	background: url('../img/o-nama/desno_2.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -5s;
+}
+#about-slideshow-3 {
+	background: url('../img/o-nama/desno_3.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -10s;
+}
+#about-slideshow-4 {
+	background: url('../img/o-nama/desno_4.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -15s;
+}
+#about-slideshow-5 {
+	background: url('../img/o-nama/desno_5.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -20s;
+}
+#about-slideshow-6 {
+	background: url('../img/o-nama/desno_6.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -25s;
+}
+#about-slideshow-7 {
+	background: url('../img/o-nama/desno_7.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -30s;
+}
+#about-slideshow-8 {
+	background: url('../img/o-nama/desno_8.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	-webkit-animation-delay: -35s;
 }
 
 #history1 {

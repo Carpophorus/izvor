@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
     <script src="js/ajax-utils.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/script.js"></script>
@@ -39,25 +40,25 @@
         		<div class="navbar-header">
         			<!-- links -->
         			<div id="menu-items">
-        				<div id="item">
+        				<div id="item" class="navlink1">
         					<a href="#o-nama">
         						<span></span>
         						<h2>O&nbsp;nama</h2>
         					</a>
         				</div>
-        				<div id="item">
+        				<div id="item" class="navlink2">
         					<a href="#istorijat">
         						<span></span>
         						<h2>Istorijat</h2>
         					</a>
         				</div>
-        				<div id="item">
+        				<div id="item" class="navlink3">
         					<a href="#proizvodi">
         						<span></span>
         						<h2>Proizvodi</h2>
         					</a>
         				</div>
-        				<div id="item">
+        				<div id="item" class="navlink4">
         					<a href="#kontakt">
         						<span></span>
         						<h2>Kontakt</h2>
@@ -85,25 +86,25 @@
         		<div id="collapsable-nav" class="collapse navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#o-nama">
+							<a href="#o-nama" class="navlink1">
 				    			<span></span>
 				    			<h2>O&nbsp;nama</h2>
 				    		</a>
 				    	</li>
 				    	<li>
-				    		<a href="#istorijat">
+				    		<a href="#istorijat" class="navlink2">
 				    			<span></span>
 				    			<h2>Istorijat</h2>
 				    		</a>
 				    	</li>
 				    	<li>
-				    		<a href="#proizvodi">
+				    		<a href="#proizvodi" class="navlink3">
 				    			<span></span>
 				    			<h2>Proizvodi</h2>
 				    		</a>
 				    	</li>
 				    	<li>
-				    		<a href="#kontakt">
+				    		<a href="#kontakt" class="navlink4">
 				    			<span></span>
 				    			<h2>Kontakt</h2>
 				    		</a>
@@ -176,6 +177,46 @@
 			Copyright &copy; 2017. Pekara Izvor. All rights reserved.
 		</div>
 	</footer>
+
+	<script>
+    // add event listener on load
+    window.addEventListener('load', function() {
+      // scroll into view
+      document.querySelector('#index2').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index3').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('#index4').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index5').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('#index6').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index7').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('#index8').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index9').scrollIntoView({ behavior: 'smooth' });
+      });
+      // scroll into view
+      document.querySelector('.navlink1').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index3').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('.navlink2').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index5').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('.navlink3').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index7').scrollIntoView({ behavior: 'smooth' });
+      });
+      document.querySelector('.navlink4').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index9').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
 
 </body>
 </html>
