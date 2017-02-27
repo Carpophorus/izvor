@@ -40,32 +40,32 @@
         		<div class="navbar-header">
         			<!-- links -->
         			<div id="menu-items">
-        				<div id="item" class="navlink1">
+        				<div id="item" class="navlink1 hidden">
         					<a href="#o-nama">
         						<span></span>
         						<h2>O&nbsp;nama</h2>
         					</a>
         				</div>
-        				<div id="item" class="navlink2">
+        				<div id="item" class="navlink2 hidden">
         					<a href="#istorijat">
         						<span></span>
         						<h2>Istorijat</h2>
         					</a>
         				</div>
-        				<div id="item" class="navlink3">
+        				<div id="item" class="navlink3 hidden">
         					<a href="#proizvodi">
         						<span></span>
         						<h2>Proizvodi</h2>
         					</a>
         				</div>
-        				<div id="item" class="navlink4">
+        				<div id="item" class="navlink4 hidden">
         					<a href="#kontakt">
         						<span></span>
         						<h2>Kontakt</h2>
         					</a>
         				</div>
         				<div id="item-last">
-        					<a href="sta-je-novo.html">
+        					<a href="sta-je-novo.html" class="hidden">
         						<span></span>
         						<h2>Šta&nbsp;je&nbsp;<strong>NOVO</strong>&nbsp;kod&nbsp;nas?</h2>
         					</a>
@@ -122,11 +122,47 @@
     	<!-- lace -->
     	<div id="lace" class="hidden-sm hidden-xs"></div>
 	</header>
+	
+	<div id="slogan"></div>
+	<div id="menu-items-scroll" class="no-fixer">
+		<div id="item" class="navlink11">
+			<a href="#o-nama">
+				<span></span>
+				<h2>O&nbsp;nama</h2>
+			</a>
+		</div>
+		<div id="item" class="navlink21">
+			<a href="#istorijat">
+				<span></span>
+				<h2>Istorijat</h2>
+			</a>
+		</div>
+		<div id="item" class="navlink31">
+			<a href="#proizvodi">
+				<span></span>
+				<h2>Proizvodi</h2>
+			</a>
+		</div>
+		<div id="item" class="navlink41">
+			<a href="#kontakt">
+				<span></span>
+				<h2>Kontakt</h2>
+			</a>
+		</div>
+		<div id="item-last">
+			<a href="sta-je-novo.html">
+				<span></span>
+				<h2>Šta&nbsp;je&nbsp;<strong>NOVO</strong>&nbsp;kod&nbsp;nas?</h2>
+			</a>
+		</div>
+	</div>
 
 	<div id="main-content">
-		<div id="index1">
-			<div id="index11"></div>
-		</div>
+		<a href="#o-nama">
+			<div id="index1">
+				<div id="index11"></div>
+			</div>
+		</a>
 
 		<a href="#o-nama">
 			<div id="index2">
@@ -186,6 +222,10 @@
     // add event listener on load
     window.addEventListener('load', function() {
       // scroll into view
+      document.querySelector('#index1').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#index3').scrollIntoView({ behavior: 'smooth' });
+      });
       document.querySelector('#index2').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#index3').scrollIntoView({ behavior: 'smooth' });
@@ -203,19 +243,19 @@
         document.querySelector('#index9').scrollIntoView({ behavior: 'smooth' });
       });
       // scroll into view
-      document.querySelector('.navlink1').addEventListener('click', function(e) {
+      document.querySelector('.navlink11').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#index3').scrollIntoView({ behavior: 'smooth' });
       });
-      document.querySelector('.navlink2').addEventListener('click', function(e) {
+      document.querySelector('.navlink21').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#index5').scrollIntoView({ behavior: 'smooth' });
       });
-      document.querySelector('.navlink3').addEventListener('click', function(e) {
+      document.querySelector('.navlink31').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#index7').scrollIntoView({ behavior: 'smooth' });
       });
-      document.querySelector('.navlink4').addEventListener('click', function(e) {
+      document.querySelector('.navlink41').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#index9').scrollIntoView({ behavior: 'smooth' });
       });

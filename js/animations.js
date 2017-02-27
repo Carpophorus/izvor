@@ -1,26 +1,14 @@
-var $animation_elements = $('.slideUp');
-var $window = $(window);
-
-function check_if_in_view() {
-    var window_height = $window.height();
-    var window_top_position = $window.scrollTop();
-    var window_bottom_position = (window_top_position + window_height);
-
-    $.each($animation_elements, function() {
-        var $element = $(this);
-        var element_height = $element.outerHeight();
-        var element_top_position = $element.offset().top;
-        var element_bottom_position = (element_top_position + element_height);
-        /*console.log("triggered"); //???*/
-
-        if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-            $element.addClass('in-view');
+$(document).ready(function() {
+    var s = $("#menu-items-scroll");
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        var width = $(window).width();
+        if (windowpos >= width*55/100) {
+            s.removeClass("no-fixer");
+            s.addClass("fixer");
         } else {
-            $element.removeClass('in-view');
+            s.removeClass("fixer");
+            s.addClass("no-fixer");
         }
     });
-}
-
-$window.on('scroll resize', check_if_in_view);
-$window.trigger('scroll');
-/*$window.scroll(function() { check_if_in_view(); console.log("scroll"); }); //???*/
+});
