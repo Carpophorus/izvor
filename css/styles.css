@@ -52,12 +52,10 @@ li h2 {
 }
 
 #item {
-	padding: 0;
 	width: 17.5%;
 }
 
 #item-last {
-	padding: 0;
 	margin-left: 2%;
 	width: 28%;
 }
@@ -92,6 +90,28 @@ li h2 {
 	margin-left: 27.5%;
 }
 
+.no-fixer1 {
+	margin: auto;
+	width: 10%;
+	height: 4.4vw;
+	z-index: 102;
+	position: absolute;
+	margin-top: 53vw;
+	margin-left: 74.7%;
+	text-align: center;
+}
+
+.fixer1 {
+	margin: auto;
+	width: 10%;
+	height: 4.4vw;
+	z-index: 102;
+	position: fixed;
+	margin-top: -1vw;
+	margin-left: 74.7%;
+	text-align: center;
+}
+
 #slogan {
 	background: url('../img/index/slogan.png') no-repeat;
 	background-size: 100% auto;
@@ -110,6 +130,32 @@ li h2 {
 
 #menu-items div {
 	height: 100%;
+}
+
+#social {
+	position: fixed;
+	z-index: 105;
+	margin-left: 87%;
+	margin-top: 0.3vw;
+	height: 3.5vw;
+	width: 8vw;
+	border-bottom: 0.07vw solid #AAAAAA;
+}
+#fb {
+	background: url('../img/fb.png') no-repeat;
+	background-size: 2.6vw auto;
+	background-position: center;
+	width: 4vw;
+	height: 3.5vw;
+	float: left;
+}
+#ig {
+	background: url('../img/ig.png') no-repeat;
+	background-size: 2.6vw auto;
+	background-position: center;
+	width: 4vw;
+	height: 3.5vw;
+	float: left;
 }
 
 #logo {
@@ -151,7 +197,7 @@ li h2 {
 
 .navbar-collapse.in {
 	overflow-y: visible;
-	min-height: 50vw;
+	min-height: 60vw;
 }
 
 .navbar-fixed-top {
@@ -159,7 +205,7 @@ li h2 {
 }
 
 .navbar-fixed-top .navbar-collapse {
-	max-height: 50vw;
+	max-height: 60vw;
 }
 
 #mobile-container .navbar-header {
@@ -215,6 +261,44 @@ footer div {
 	background-color: white;
 }
 
+#social-footer {
+	width: 100%;
+	height: 10vw;
+	background-color: #E6E6E6;
+}
+#sfctext {
+	width: 16vw;
+	height: 1vw;
+	margin: auto;
+	text-align: center;
+	padding-top: 2vw;
+	padding-bottom: 0.4vw;
+	font-size: 1.5vw;
+	color: darkred;
+}
+#sfc {
+	width: 14vw;
+	height: 6vw;
+	border-bottom: 0.07vw solid white;
+	margin: auto;
+}
+#fbf {
+	background: url('../img/fb.png') no-repeat;
+	background-size: 3vw auto;
+	background-position: center;
+	width: 7vw;
+	height: 7vw;
+	float: left;
+}
+#igf {
+	background: url('../img/ig.png') no-repeat;
+	background-size: 3vw auto;
+	background-position: center;
+	width: 7vw;
+	height: 7vw;
+	float: left;
+}
+
 /* END FOOTER */
 
 /* OTHER */
@@ -251,7 +335,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-size: 100% 69vw;
 	background-position: center;
 	width: 100%;
-	height: 55vw;
+	height: 54.5vw;
 }
 #index2 {
 	background: url('../img/index/index2.png') no-repeat;
@@ -576,7 +660,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #new3 {
 	background: url('../img/sta-je-novo/new3.png') no-repeat;
-	background-size: 140% auto;
+	background-size: 170% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
@@ -599,7 +683,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #bela3 {
 	background: url('../img/bela-peciva/bela3.png') no-repeat;
-	background-size: 100% auto;
+	background-size: 130% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
@@ -645,7 +729,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #nika3 {
 	background: url('../img/nika/nika3.png') no-repeat;
-	background-size: 100% auto;
+	background-size: 130% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
@@ -773,7 +857,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #pite3 {
 	background: url('../img/pite/pite3.png') no-repeat;
-	background-size: 100% auto;
+	background-size: 130% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
@@ -841,7 +925,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #salty3 {
 	background: url('../img/slana-peciva/salty3.png') no-repeat;
-	background-size: 100% auto;
+	background-size: 140% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
@@ -864,7 +948,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #sara3 {
 	background: url('../img/slatka-peciva/sara3.png') no-repeat;
-	background-size: 100% auto;
+	background-size: 120% auto;
 	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
