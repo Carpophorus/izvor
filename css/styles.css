@@ -142,7 +142,7 @@ li h2 {
 	border-bottom: 0.07vw solid #AAAAAA;
 }
 #fb {
-	background: url('../img/fb.png') no-repeat;
+	background: url('../img/fb.svg') no-repeat;
 	background-size: 2.6vw auto;
 	background-position: center;
 	width: 4vw;
@@ -150,7 +150,7 @@ li h2 {
 	float: left;
 }
 #ig {
-	background: url('../img/ig.png') no-repeat;
+	background: url('../img/ig.svg') no-repeat;
 	background-size: 2.6vw auto;
 	background-position: center;
 	width: 4vw;
@@ -283,7 +283,7 @@ footer div {
 	margin: auto;
 }
 #fbf {
-	background: url('../img/fb.png') no-repeat;
+	background: url('../img/fb.svg') no-repeat;
 	background-size: 3vw auto;
 	background-position: center;
 	width: 7vw;
@@ -291,7 +291,7 @@ footer div {
 	float: left;
 }
 #igf {
-	background: url('../img/ig.png') no-repeat;
+	background: url('../img/ig.svg') no-repeat;
 	background-size: 3vw auto;
 	background-position: center;
 	width: 7vw;
