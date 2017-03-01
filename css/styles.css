@@ -690,6 +690,29 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 20vw;
 }
 
+#docs1 {
+	background: url('../img/dokumenti/docs1.jpg') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	width: 100%;
+	height: 29vw;
+}
+#docs2 {
+	background: url('../img/dokumenti/docs2.png') no-repeat;
+	background-size: auto 100%;
+	background-position: bottom;
+	width: 100%;
+	height: 100vw;
+}
+#docs3 {
+	background: url('../img/dokumenti/docs3.jpg') no-repeat;
+	background-size: 110% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 100%;
+	height: 20vw;
+}
+
 #hleb1 {
 	background: url('../img/hleb/hleb1.png') no-repeat;
 	background-size: 100% 29vw;
