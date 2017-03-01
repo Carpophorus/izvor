@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
     <script src="js/ajax-utils.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/script.js"></script>
@@ -123,51 +124,59 @@
   </header>
 
   <div id="main-content">
-    <div id="products1"></div>
-    <div id="products2">
-      <div id="products4"></div>
-      <div id="products5"></div>
-      <!-- <div id="line1"></div> -->
-      <div id="pnav">
-        <a href="hleb.html">
-          <div id="pp1"></div>
-          <div id="ptext">HLEBOVI</div>
+    <a href="#asortiman">
+      <div id="products1"></div>
+    </a>
+    <a name="asortiman" id="asortiman">
+      <div id="products2">
+        <a href="#asortiman">
+          <div id="products4"></div>
         </a>
-        <a href="pogace.html">
-          <div id="pp2"></div>
-          <div id="ptext">POGAČE</div>
+        <a href="#asortiman">
+          <div id="products5"></div>
         </a>
-        <a href="bela-peciva.html">
-          <div id="pp3"></div>
-          <div id="ptext">BELA PECIVA</div>
-        </a>
-        <a href="slana-peciva.html">
-          <div id="pp4"></div>
-          <div id="ptext">SLANA PECIVA</div>
-        </a>
-        <a href="slatka-peciva.html">
-          <div id="pp5"></div>
-          <div id="ptext">SLATKA PECIVA</div>
-        </a>
-        <a href="smrznuti-program.html">
-          <div id="pp6"></div>
-          <div id="ptext">SMRZNUTI PROGRAM</div>
-        </a>
-        <a href="pite.html">
-          <div id="pp7"></div>
-          <div id="ptext">PITE</div>
-        </a>
-        <a href="polupeceni-program.html">
-          <div id="pp8"></div>
-          <div id="ptext">POLUPEČENI PROGRAM</div>
-        </a>
-        <a href="nika.html" id="last">
-          <div id="pp9"></div>
-          <div id="ptext">KROASAN NIKA</div>
-        </a>
+        <!-- <div id="line1"></div> -->
+        <div id="pnav">
+          <a href="hleb.html">
+            <div id="pp1"></div>
+            <div id="ptext">HLEBOVI</div>
+          </a>
+          <a href="pogace.html">
+            <div id="pp2"></div>
+            <div id="ptext">POGAČE</div>
+          </a>
+          <a href="bela-peciva.html">
+            <div id="pp3"></div>
+            <div id="ptext">BELA PECIVA</div>
+          </a>
+          <a href="slana-peciva.html">
+            <div id="pp4"></div>
+            <div id="ptext">SLANA PECIVA</div>
+          </a>
+          <a href="slatka-peciva.html">
+            <div id="pp5"></div>
+            <div id="ptext">SLATKA PECIVA</div>
+          </a>
+          <a href="smrznuti-program.html">
+            <div id="pp6"></div>
+            <div id="ptext">SMRZNUTI PROGRAM</div>
+          </a>
+          <a href="pite.html">
+            <div id="pp7"></div>
+            <div id="ptext">PITE</div>
+          </a>
+          <a href="polupeceni-program.html">
+            <div id="pp8"></div>
+            <div id="ptext">POLUPEČENI PROGRAM</div>
+          </a>
+          <a href="nika.html" id="last">
+            <div id="pp9"></div>
+            <div id="ptext">KROASAN NIKA</div>
+          </a>
+        </div>
+        <div id="line2"></div>
       </div>
-      <div id="line2"></div>
-    </div>
+    </a>
     <div id="products3"></div>
     <div id="social-footer">
       <div id="sfctext">DRUŠTVENE&nbsp;MREŽE</div>
@@ -178,11 +187,28 @@
     </div>
   </div>
 
-  <footer id="footer" class="panel-footer">
+  <footer id="footer" class="panel-footer footer-products">
     <div>
       Copyright &copy; 2017. Pekara Izvor. All rights reserved.
     </div>
   </footer>
+
+  <script>
+      window.addEventListener('load', function() {
+        document.querySelector('#products1').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#asortiman').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.querySelector('#products4').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#asortiman').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.querySelector('#products5').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#asortiman').scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+  </script>
 
 </body>
 </html>

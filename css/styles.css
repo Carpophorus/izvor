@@ -1020,7 +1020,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-size: 100% 149vw;
 	background-position: bottom;
 	width: 100%;
-	height: 61vw;
+	height: 40vw;
 }
 #products4 {
 	background: url('../img/proizvodi/products4.png') no-repeat;
@@ -1053,13 +1053,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	border-bottom: 0.1vw solid white;
 	position: absolute;
 	margin-left: 15%;
-	margin-top: 60vw;
+	margin-top: 39vw;
 }
 #pnav {
-	position: absolute;
-	margin-top: 75vh;
-	margin-left: 15%;
-	width: 70%;
+	visibility: hidden;
 }
 #pnav a {
 	float: left;
@@ -1241,6 +1238,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 		padding-top: 2vw;
 		padding-bottom: 3vw;
 		color: #B40404;
+	}
+
+	.footer-products {
+		margin-bottom: 70vw;
 	}
 }
 

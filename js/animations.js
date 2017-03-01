@@ -27,3 +27,66 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    var s = $("#pnav");
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        var anchor = $("#products2").position().top;
+        var width = $(window).width();
+        if (windowpos >= anchor) {
+            s.css({
+                'position': 'absolute',
+                'margin-left': '15%',
+                'padding-top': '13vw',
+                'width': '70%',
+                'visibility': 'visible'
+            });
+        } else {
+            s.css({
+                'position': 'absolute',
+                'margin-left': '15%',
+                'padding-top': ((windowpos/anchor)*13)*width/100,
+                'opacity': (windowpos/anchor),
+                'width': '70%',
+                'visibility': 'visible'
+            });
+        }
+    });
+});
+
+$(document).ready(function() {
+    var s1 = $("#products4");
+    var s2 = $("#products5");
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        var anchor = $("#products2").position().top;
+        var width = $(window).width();
+        if (windowpos >= anchor) {
+            s1.css({
+                'visibility': 'hidden'
+            });
+            s2.css({
+                'visibility': 'hidden'
+            });
+        } else if (windowpos >= anchor*2/3) {
+            s1.css({
+                'visibility': 'visible',
+                'opacity': (1 - (windowpos - anchor*2/3)*3/anchor)
+            });
+            s2.css({
+                'visibility': 'visible',
+                'opacity': (1 - (windowpos - anchor*2/3)*3/anchor)
+            });
+        } else {
+            s1.css({
+                'visibility': 'visible',
+                'opacity': 1
+            });
+            s2.css({
+                'visibility': 'visible',
+                'opacity': 1
+            });
+        }
+    });
+});
