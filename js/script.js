@@ -16,3 +16,10 @@ $(document).ready(function() {
     s.removeClass("hidden-sm");
     s.removeClass("hidden-xs");
 });
+
+$(document).ready(function() {
+	var screenWidth = window.innerWidth;
+    if (screenWidth < 992) {
+    	$("#index2").css({ 'background-attachment': 'scroll' });
+    }
+});
