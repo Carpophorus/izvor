@@ -21,5 +21,8 @@ $(document).ready(function() {
 	var screenWidth = window.innerWidth;
     if (screenWidth < 992) {
     	$("#index2").css({ 'background-attachment': 'scroll' });
+    	$("#index4").css({ 'background-attachment': 'scroll' });
+    	$("#index6").css({ 'background-attachment': 'scroll' });
+    	$("#index8").css({ 'background-attachment': 'scroll' });
     }
 });
