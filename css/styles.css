@@ -1211,9 +1211,13 @@ a:link, a:visited, a:hover, a:focus, a:active {
 /* MEDIA */
 
 @media (max-width: 991px) {
+	#main-content {
+		margin-top: 9vw;
+	}
+
 	#logo {
 		float: left;
-		margin-top: 0.1%;
+		margin-top: -10vw;
 		margin-left: 5%;
 		position: fixed;
 		z-index: 101;
