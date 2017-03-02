@@ -175,14 +175,14 @@ li h2 {
 }
 
 #lace {
-	background: url('../img/lace.svg') repeat;
-	background-size: auto 2.7vw;
-	background-position: center;
+	background: url('../img/lace.svg') no-repeat;
+	background-size: 110% auto;
+	background-position: top;
 	width: 100%;
-	height: 2.7vw;
+	height: 4.2vw;
 	background-color: transparent;
 	float: left;
-	margin-top: 4.2vw;
+	margin-top: 4.4vw;
 	position: fixed;
 	z-index: 100;
 }
@@ -693,6 +693,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 #docs a h2 {
 	line-height: 1.2vw;
+	padding-top: 2vw;
 }
 
 #docs1 {
@@ -1229,6 +1230,11 @@ a:link, a:visited, a:hover, a:focus, a:active {
 		background-position: center;
 		width: 25vw;
 		height: 25vw;
+	}
+
+	#lace {
+		margin-top: 1vw;
+		z-index: 3;
 	}
 
 	footer {

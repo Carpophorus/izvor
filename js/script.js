@@ -10,3 +10,9 @@ $(function () {
     $(event.target).focus();
   });
 });
+
+$(document).ready(function() {
+    var s = $("#lace");
+    s.removeClass("hidden-sm");
+    s.removeClass("hidden-xs");
+});
