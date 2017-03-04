@@ -122,6 +122,17 @@ li h2 {
 	width: 19vw;
 }
 
+#slogan-mobile {
+	background: url('../img/slogan mobile.svg') no-repeat;
+	background-size: 100% auto;
+	position: fixed;
+	z-index: 105;
+	margin-left: 35%;
+	margin-top: -6vw;
+	height: 5vw;
+	width: 40%;
+}
+
 #menu-items-scroll div {
 	position: relative;
 	float: left;
