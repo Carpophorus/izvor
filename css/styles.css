@@ -74,7 +74,7 @@ li h2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: absolute;
 	margin-top: 54vw;
 	margin-left: 27.5%;
@@ -84,7 +84,7 @@ li h2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: fixed;
 	margin-top: 0;
 	margin-left: 27.5%;
@@ -112,6 +112,26 @@ li h2 {
 	text-align: center;
 }
 
+.no-fixer2 {
+	margin: auto;
+	width: 45%;
+	height: 4.4vw;
+	z-index: 102;
+	position: absolute;
+	margin-top: 54.5vw;
+	margin-left: 27.5%;
+}
+
+.fixer3 {
+	margin: auto;
+	width: 45%;
+	height: 4.4vw;
+	z-index: 102;
+	position: fixed;
+	margin-top: 1.4vw;
+	margin-left: 27.5%;
+}
+
 #slogan {
 	background: url('../img/index/slogan.png') no-repeat;
 	background-size: 100% auto;
@@ -133,10 +153,15 @@ li h2 {
 	width: 40%;
 }
 
-#menu-items-scroll div {
+#menu-items-scroll div, #menu-lines-scroll div, #menu-lines-scroll-x div {
 	position: relative;
 	float: left;
 	text-align: center;
+}
+
+#menu-lines-scroll #item, #menu-lines-scroll-x #item {
+	border-right: 0.1vw solid #555555;
+	height: 3vw;
 }
 
 #menu-items div {
@@ -1190,6 +1215,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 
 /* index */
+
 #i2dots {
 	height: 7.3vw;
 	margin-left: 50%;
@@ -1271,7 +1297,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px) { /* SM */
+@media (min-width: 766px) and (max-width: 991px) { /* SM */
 	/* BREAKPOINT CHANGE */
 	.navbar-header {
 		float: none;
@@ -1305,6 +1331,9 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	}
 	.collapse.in{
 		display:block !important;
+	}
+	.hidden-sm, .hidden-xs {
+		display: none!important;
 	}
 }
 

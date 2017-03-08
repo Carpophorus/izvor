@@ -29,6 +29,21 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    var s = $("#menu-lines-scroll");
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        var width = $(window).width();
+        if (windowpos >= width*53.6/100) {
+            s.removeClass("no-fixer2");
+            s.addClass("fixer2");
+        } else {
+            s.removeClass("fixer2");
+            s.addClass("no-fixer2");
+        }
+    });
+});
+
+$(document).ready(function() {
     var s = $("#pnav");
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
