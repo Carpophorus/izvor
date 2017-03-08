@@ -74,7 +74,7 @@ li h2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 106;
+	z-index: 107;
 	position: absolute;
 	margin-top: 54vw;
 	margin-left: 27.5%;
@@ -84,7 +84,7 @@ li h2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 106;
+	z-index: 107;
 	position: fixed;
 	margin-top: 0;
 	margin-left: 27.5%;
@@ -94,7 +94,7 @@ li h2 {
 	margin: auto;
 	width: 10%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: absolute;
 	margin-top: 53vw;
 	margin-left: 74.7%;
@@ -105,7 +105,7 @@ li h2 {
 	margin: auto;
 	width: 10%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: fixed;
 	margin-top: -1vw;
 	margin-left: 74.7%;
@@ -116,17 +116,17 @@ li h2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: absolute;
 	margin-top: 54.5vw;
 	margin-left: 27.5%;
 }
 
-.fixer3 {
+.fixer3, .fixer2 {
 	margin: auto;
 	width: 45%;
 	height: 4.4vw;
-	z-index: 102;
+	z-index: 106;
 	position: fixed;
 	margin-top: 1.4vw;
 	margin-left: 27.5%;
@@ -161,6 +161,10 @@ li h2 {
 
 #menu-lines-scroll #item, #menu-lines-scroll-x #item {
 	border-right: 0.1vw solid #555555;
+	height: 3vw;
+}
+
+#menu-lines-scroll-x #item-last {
 	height: 3vw;
 }
 
