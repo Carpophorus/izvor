@@ -731,7 +731,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 20vw;
 }
 
-#docs a h2 {
+#docs a h2, #docs1 a h2 {
 	line-height: 1.2vw;
 	padding-top: 2vw;
 }
