@@ -386,6 +386,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 20vw;
 	opacity: 0.9;
+	position: relative;
 }
 #index3 {
 	background: url('../img/index/index3.png') no-repeat;
@@ -443,10 +444,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #index9 {
 	background: url('../img/index/index9.png') no-repeat;
-	background-size: 100% 49vw;
-	background-position: center;
+	background-size: 50% auto;
+	background-position: left top;
 	width: 100%;
-	height: 49vw;
+	height: 41vw;
 }
 #index10, #products3 {
 	background: url('../img/index/index10.png') no-repeat;
@@ -1225,25 +1226,24 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	margin-left: 50%;
 }
 #i2lines1 {
-	position: absolute;
+	float: right;
 	height: 4vw;
 	border-right: 0.1vw solid white;
 	border-bottom: 0.1vw solid white;
 	margin-top: 10vw;
-	margin-left: 20.55%;
+	margin-right: 50%;
 	width: 30%;
 }
 #i2lines2 {
-	position: absolute;
+	float: right;
 	height: 6.5vw;
 	border-left: 0.1vw solid white;
-	margin-top: 14vw;
-	margin-left: 20.55%;
+	margin-right: 50%;
 	width: 30%;
 }
 #i2circle {
 	margin-top: 7.7vw;
-	margin-left: 49.55%;
+	margin-left: 49%;
 }
 
 /* END ELEMENTS*/
