@@ -1,5 +1,6 @@
 $(document).ready(function() {
     var s = $("#menu-items-scroll");
+    if (s == null) return;
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         var width = $(window).width();
@@ -15,6 +16,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var s = $("#docs");
+    if (s == null) return;
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         var width = $(window).width();
@@ -30,6 +32,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var s = $("#menu-lines-scroll");
+    if (s == null) return;
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         var width = $(window).width();
@@ -47,7 +50,7 @@ $(document).ready(function() {
     var s = $("#pnav");
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
-        var anchor = $("#products2").position().top;
+        var anchor = ($("#products2").position() || {"anchor": NaN}).top;
         var width = $(window).width();
         if (windowpos >= anchor) {
             s.css({
@@ -75,7 +78,7 @@ $(document).ready(function() {
     var s2 = $("#products5");
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
-        var anchor = $("#products2").position().top;
+        var anchor = ($("#products2").position() || {"anchor": NaN}).top;
         var width = $(window).width();
         if (windowpos >= anchor) {
             s1.css({
