@@ -299,6 +299,8 @@ footer div {
 	text-align: center;
 	color: #999999;
 	background-color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
 }
 
 #social-footer {
@@ -315,6 +317,8 @@ footer div {
 	padding-bottom: 1vw;
 	font-size: 1.5vw;
 	color: darkred;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
 }
 #sfc {
 	width: 12vw;
@@ -400,6 +404,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
     transition: transform 0.6s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    position: relative;
 }
 #index4 {
 	background: url('../img/index/index4.png') no-repeat;
@@ -409,6 +414,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 20vw;
 	opacity: 0.9;
+	position: relative;
 }
 #index5 {
 	background: url('../img/index/index5.png') no-repeat;
@@ -416,6 +422,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 30vw;
+	position: relative;
 }
 #index6 {
 	background: url('../img/index/index6.png') no-repeat;
@@ -425,6 +432,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 20vw;
 	opacity: 0.9;
+	position: relative;
 }
 #index7 {
 	background: url('../img/index/index7.png') no-repeat;
@@ -432,6 +440,17 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 30vw;
+	position: relative;
+}
+#i7img {
+	background: url('../img/proizvedeno u srbiji.png') no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	width: 9vw;
+	height: 9vw;
+	position: absolute;
+	top: 15%;
+	left: 78%;
 }
 #index8 {
 	background: url('../img/index/index8.png') no-repeat;
@@ -441,6 +460,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 20vw;
 	opacity: 0.9;
+	position: relative;
 }
 #index9 {
 	background: url('../img/index/index9.png') no-repeat;
@@ -1198,52 +1218,109 @@ a:link, a:visited, a:hover, a:focus, a:active {
 /* ELEMENTS */
 
 .circle {
-  width: 2vw;
-  height: 2vw;
-  border-radius: 1vw;
-  background-color: #ff9933;
-  position: absolute;
+	position: absolute;
+	width: 2vw;
+	height: 2vw;
+	border-radius: 1vw;
+	background-color: #ff9933;
 }
 
 .horizontal-squares {
-  background: url('../img/white square.png') repeat;
-  background-size: 1vw 1vw;
-  height: 1vw;
-  position: absolute;
+	position: absolute;
+	background: url('../img/white square.png') repeat;
+	background-size: 100% auto;
+	height: 1vw;
 }
 
 .vertical-squares {
-  background: url('../img/white square.png') repeat;
-  background-size: 1vw 1vw;
-  width: 1vw;
-  position: absolute;
+	position: absolute;
+	background: url('../img/white square.png') repeat;
+	background-size: 100% auto;
+	width: 1vw;
 }
 
 /* index */
 
-#i2dots {
-	height: 7.3vw;
-	margin-left: 50%;
+#i6dots {
+	position: absolute;
+	height: 33%;
+	left: 49.5%;
 }
-#i2lines1 {
-	float: right;
-	height: 4vw;
+#i2lines1, #i6lines1 {
+	position: absolute;
+	height: 10%;
 	border-right: 0.1vw solid white;
 	border-bottom: 0.1vw solid white;
-	margin-top: 10vw;
-	margin-right: 50%;
+	top: 50%;
+	right: 50%;
 	width: 30%;
 }
-#i2lines2 {
-	float: right;
-	height: 6.5vw;
+#i2lines2, #i6lines2 {
+	position: absolute;
+	height: 40%;
 	border-left: 0.1vw solid white;
-	margin-right: 50%;
+	top: 60%;
+	right: 50%;
 	width: 30%;
 }
-#i2circle {
-	margin-top: 7.7vw;
-	margin-left: 49%;
+#i2circle, #i6circle {
+	position: absolute;
+	top: 37%;
+	left: 49%;
+}
+#i3lines {
+	position: absolute;
+	top: 40%;
+	left: 66%;
+	height: 50%;
+	width: 18%;
+	border-left: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
+}
+#i4dots, #i8dots {
+	position: absolute;
+	height: 33%;
+	left: 19.5%;
+}
+#i4lines1, #i8lines1 {
+	position: absolute;
+	height: 10%;
+	border-left: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
+	top: 50%;
+	right: 50%;
+	width: 30%;
+}
+#i4lines2, #i8lines2 {
+	position: absolute;
+	height: 40%;
+	border-right: 0.1vw solid white;
+	top: 60%;
+	right: 50%;
+	width: 30%;
+}
+#i4circle, #i8circle {
+	position: absolute;
+	top: 37%;
+	left: 19%;
+}
+#i5lines {
+	position: absolute;
+	top: 22%;
+	left: 66%;
+	height: 70%;
+	width: 18%;
+	border-left: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
+}
+#i7lines {
+	position: absolute;
+	top: 49%;
+	left: 66%;
+	height: 43%;
+	width: 18%;
+	border-left: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
 }
 
 /* END ELEMENTS*/
@@ -1281,6 +1358,102 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 
 /* END FONTS */
+
+/* TEXT */
+
+/* index */
+
+#i3text {
+	color: white;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 32vw;
+	height: 12vw;
+	top: 39%;
+	left: 67%;
+}
+#i3details {
+	color: white;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 10vw;
+	height: 2vw;
+	top: 87%;
+	left: 85%;
+}
+#i4text, #i8text {
+	color: white;
+	background-color: rgba(0,0,0,0.2); 
+	font-size: 1.5vw;
+	text-align: right;
+	line-height: 2.7vw;
+	position: absolute;
+	padding-left: 4vw;
+	padding-right: 1vw;
+	top: 35.4%;
+	left: 18.7%;
+	border-top-left-radius: 1.2vw;
+	border-bottom-left-radius: 1.2vw;
+}
+#i5text {
+	color: white;
+	font-size: 1.5vw;
+	text-align: justify;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 30vw;
+	height: 15vw;
+	top: 21%;
+	left: 67%;
+}
+#i5details {
+	color: white;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 10vw;
+	height: 2vw;
+	top: 89%;
+	left: 85%;
+}
+#i6text {
+	color: white;
+	background-color: rgba(0,0,0,0.2); 
+	font-size: 1.5vw;
+	text-align: left;
+	line-height: 2.7vw;
+	position: absolute;
+	padding-right: 4vw;
+	padding-left: 1vw;
+	top: 35.4%;
+	right: 48.6%;
+	border-top-right-radius: 1.2vw;
+	border-bottom-right-radius: 1.2vw;
+}
+#i7text {
+	color: darkred;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 32vw;
+	height: 15vw;
+	top: 48%;
+	left: 67%;
+}
+#i7details {
+	color: white;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	position: absolute;
+	width: 10vw;
+	height: 2vw;
+	top: 89%;
+	left: 85%;
+}
+
+/* END TEXT */
 
 /* END OTHER*/
 
