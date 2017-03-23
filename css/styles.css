@@ -493,15 +493,17 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #about2 {
 	background: url('../img/o-nama/about2.png') no-repeat;
-	background-size: 100% 57vw; /* remove, auto resize, cover */
+	background-size: 100% 100%;
 	background-position: center;
 	width: 100%;
-	height: 57vw;
-	padding: 5vw;
+	padding: 7vw;
+	padding-bottom: 10vw;
 	text-align: justify;
+	position: relative;
 }
 #about3 {
 	background: url('../img/o-nama/about3.png') no-repeat;
@@ -515,7 +517,8 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 35vw;
 	width: 50vw;
 	float: right;
-	margin: 3vw;
+	margin-left: 3vw;
+	margin-bottom: 3vw;
 	margin-top: 0;
 	position: relative;
 }
@@ -1228,7 +1231,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 .horizontal-squares {
 	position: absolute;
 	background: url('../img/white square.png') repeat;
-	background-size: 100% auto;
+	background-size: auto 100%;
 	height: 1vw;
 }
 
@@ -1237,6 +1240,38 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background: url('../img/white square.png') repeat;
 	background-size: 100% auto;
 	width: 1vw;
+}
+
+/* general */
+
+#return-home {
+	position: absolute;
+	height: 4vw;
+	width: 86%;
+	bottom: 1vw;
+}
+#return-home-1 {
+	height: 4vw;
+}
+#return-home-2 {
+	border-bottom: 0.1vw solid white;
+}
+#return-home-circle {
+	position: absolute;
+	top: 1vw;
+}
+#return-home-dots {
+	position: absolute;
+	width: 16%;
+	top: 1.5vw;
+	left: 3%;
+}
+#return-home-text {
+	position: absolute;
+	left: 20%;
+	color: #808080;
+	font-size: 1.3vw;
+	line-height: 4vw;
 }
 
 /* index */
@@ -1323,6 +1358,25 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	border-bottom: 0.1vw solid white;
 }
 
+/* o-nama */
+#a1lines {
+	position: absolute;
+	top: -7vw;
+	left: 7vw;
+	height: 14vw;
+	width: 34.7vw;
+	border-right: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;	
+}
+#a2lines {
+	position: absolute;
+	top: -7vw;
+	left: 41.7vw;
+	height: 14vw;
+	width: 30vw;
+	border-top: 0.1vw solid white;	
+}
+
 /* END ELEMENTS*/
 
 /* FONTS */
@@ -1332,9 +1386,14 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	font-weight: 400;
 }
 
-.josefin-semibold {
+.josefin-bold {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
+}
+
+.josefin-light {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
 }
 
 .montserrat {
@@ -1453,6 +1512,23 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	left: 85%;
 }
 
+/* o-nama */
+#a1text {
+	position: absolute;
+	color: white;
+	font-size: 5vw;
+	top: 63%;
+	left: 42%;
+}
+#a2text {
+	color: #808080;
+	font-size: 4vh;
+	line-height: 6vh;
+}
+#a2text span {
+	font-weight: 400;
+}
+
 /* END TEXT */
 
 /* END OTHER*/
@@ -1505,6 +1581,14 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 	.footer-products {
 		margin-bottom: 70vw;
+	}
+
+	.about-slideshow-container {
+		height: 58.8vw;
+		width: 84vw;
+		float: left;
+		margin: 0;
+		margin-bottom: 7vw;
 	}
 }
 
