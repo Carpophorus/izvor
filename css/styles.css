@@ -1248,6 +1248,40 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 /* END ELEMENTS*/
 
+/* FONTS */
+
+.josefin {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+
+.josefin-semibold {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.montserrat-semibold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.source {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.source-light {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+/* END FONTS */
+
 /* END OTHER*/
 
 /* MEDIA */
