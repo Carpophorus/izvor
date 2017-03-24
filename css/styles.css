@@ -1084,6 +1084,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #products2 {
 	background: url('../img/proizvodi/products2.png') no-repeat;
@@ -1091,6 +1092,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: bottom;
 	width: 100%;
 	height: 40vw;
+	position: relative;
 }
 #products4 {
 	background: url('../img/proizvodi/products4.png') no-repeat;
@@ -1139,11 +1141,6 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #pnav a div {
 	float: none;
-}
-#ptext {
-	padding-top: 0.7vw;
-	text-align: center;
-	width: 100%;
 }
 #pp1 {
 	background: url('../img/proizvodi/pp1.png') no-repeat;
@@ -1379,7 +1376,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 14vw;
 	width: 30vw;
 	border-left: 0.1vw solid white;
-	border-top: 0.1vw solid white;	
+	border-top: 0.1vw solid white;
 }
 
 /* istorijat */
@@ -1400,6 +1397,34 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 8vw;
 	width: 30vw;
 	border-top: 0.1vw solid white;	
+}
+
+/* proizvodi */
+
+#p2circle {
+	position: absolute;
+	top: 38.2vw;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#p1lines {
+	position: absolute;
+	top: 18vw;
+	left: 60vw;
+	height: 11vw;
+	width: 30vw;
+	border-left: 0.1vw solid white;
+	border-top: 0.1vw solid white;
+}
+#p1img {
+	background: url('../img/proizvedeno u srbiji.png') no-repeat;
+	background-size: 100% auto;
+	height: 6vw;
+	width: 6vw;
+	position: absolute;
+	top: 19vw;
+	left: 71vw;
 }
 
 /* END ELEMENTS*/
@@ -1614,13 +1639,38 @@ a:link, a:visited, a:hover, a:focus, a:active {
 /* proizvodi */
 
 #p1text {
-
+	position: absolute;
+	top: 14vw;
+	left: 61.5vw;
+	color: white;
+	font-size: 5vw;
 }
 #p2t1 {
-
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 32vw;
+	font-size: 2.2vw;
+	line-height: 3vw;
+	color: #754c24;
 }
 #p2t2 {
-
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 35vw;
+	font-size: 1.8vw;
+	line-height: 3vw;
+	color: #754c24;
+}
+#ptext {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	color: #754c24;
+	font-size: 1.1vw;
+	padding-top: 0.7vw;
+	text-align: center;
+	width: 100%;
 }
 
 /* END TEXT */
