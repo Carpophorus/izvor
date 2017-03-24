@@ -715,6 +715,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #new2 {
 	background: url('../img/sta-je-novo/new2.png') no-repeat;
@@ -722,6 +723,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 174vw;
+	position: relative;
 }
 #new3 {
 	background: url('../img/sta-je-novo/new3.png') no-repeat;
@@ -1270,7 +1272,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #return-home-text {
 	position: absolute;
 	left: 20%;
-	color: #707070;
+	color: white;
 	font-size: 1.3vw;
 	line-height: 4vw;
 }
@@ -1425,6 +1427,19 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	position: absolute;
 	top: 19vw;
 	left: 71vw;
+}
+
+/* sta-je-novo */
+
+#n1lines {
+	position: absolute;
+	top: 21vw;
+	left: 35vw;
+	height: 11vw;
+	width: 30vw;
+	border-left: 0.1vw solid white;
+	border-top: 0.1vw solid white;
+	z-index: 30;
 }
 
 /* END ELEMENTS*/
@@ -1619,7 +1634,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 3vw;
 	font-size: 2.5vw;
 	line-height: 3vw;
-	color: #a0a0a0;
+	color: white;
 	border-bottom: 0.1vw solid #a0a0a0;
 }
 #h2tz {
@@ -1671,6 +1686,77 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	padding-top: 0.7vw;
 	text-align: center;
 	width: 100%;
+}
+
+/* sta-je-novo */
+
+#n1text {
+	position: absolute;
+	top: 10vw;
+	left: 43%;
+}
+#n1t1 {
+	position: absolute;
+	font-size: 3vw;
+	color: white;
+	line-height: 3.5vw;
+	left: 1.5vw;
+}
+#n1t2 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 5vw;
+	top: 3.3vw;
+	left: 5.5vw;
+}
+#n1t3 {
+	position: absolute;
+	font-size: 3vw;
+	color: white;
+	line-height: 3.5vw;
+	top: 7.8vw;
+}
+#new2 #nika-container {
+	position: absolute;
+	border-bottom: 0.1vw solid white;
+	height: 13vw;
+	width: 25vw;
+	top: 4vw;
+	left: 13vw;
+}
+#nct1 {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: 1vw;
+}
+#nct2 {
+	position: absolute;
+	color: #754c24;
+	font-size: 2.4vw;
+	top: 2.9vw;
+	left: 6vw;
+}
+#nct3 {
+	position: absolute;
+	color: #754c24;
+	font-size: 2.4vw;
+	top: 5.2vw;
+}
+#nct4 {
+	position: absolute;
+	color: white;
+	font-size: 2.4vw;
+	top: 7.5vw;
+	left: 8vw;
+}
+#nct5 {
+	position: absolute;
+	color: #754c24;
+	font-size: 3.2vw;
+	top: 10vw;
+	left: 4vw;
 }
 
 /* END TEXT */
