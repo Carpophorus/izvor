@@ -600,6 +600,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #history2 {
 	background: url('../img/istorijat/history2.png') no-repeat;
@@ -1369,7 +1370,6 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	left: 7vw;
 	height: 14vw;
 	width: 34.7vw;
-	border-right: 0.1vw solid white;
 	border-bottom: 0.1vw solid white;	
 }
 #a2lines {
@@ -1378,6 +1378,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	left: 41.7vw;
 	height: 14vw;
 	width: 30vw;
+	border-left: 0.1vw solid white;
 	border-top: 0.1vw solid white;	
 }
 
@@ -1566,7 +1567,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	color: white;
 	font-size: 5vw;
 	line-height: 5.5vw;
-	top: 20%;
+	top: 9vw;
 	left: 52%;
 }
 #h2t1 {
@@ -1608,6 +1609,18 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #h2tz span {
 	font-weight: 700;
+}
+
+/* proizvodi */
+
+#p1text {
+
+}
+#p2t1 {
+
+}
+#p2t2 {
+
 }
 
 /* END TEXT */
