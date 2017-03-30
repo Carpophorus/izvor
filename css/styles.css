@@ -768,13 +768,15 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: bottom;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #docs2 {
 	background: url('../img/dokumenti/docs2.png') no-repeat;
-	background-size: auto 100%;
-	background-position: bottom;
+	background-size: 100% auto;
+	background-position: center;
 	width: 100%;
-	height: 100vw;
+	height: 70vw;
+	position: relative;
 }
 #docs3 {
 	background: url('../img/dokumenti/docs3.jpg') no-repeat;
@@ -1441,6 +1443,45 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	border-top: 0.1vw solid white;
 	z-index: 30;
 }
+#n2-circle {
+	top: 97vw;
+	left: 49.5%;
+}
+#n2-dots {
+	top: 86.7vw;
+	height: 10vw;
+	left: 50%;
+}
+
+/* dokumenti */
+
+#d1lines {
+	position: absolute;
+	top: 23vw;
+	left: 35vw;
+	height: 12vw;
+	width: 30vw;
+	border-left: 0.1vw solid white;
+	border-top: 0.1vw solid white;
+	z-index: 30;
+}
+#pdf-dots {
+	position: absolute;
+	left: 9vw;
+	height: 10vw;
+}
+#pdf-circle {
+	position: absolute;
+	top: 10.5vw;
+	left: 8.5vw;
+}
+#pdf-image {
+	background: url('../img/dokumenti/pdf.svg') no-repeat;
+	background-size: 100% auto;
+	height: 8vw;
+	width: 8vw;
+	position: absolute;
+}
 
 /* END ELEMENTS*/
 
@@ -1805,15 +1846,6 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	top: 7.5vw;
 	left: 18vw;
 }
-#n2-circle {
-	top: 97vw;
-	left: 49.5%;
-}
-#n2-dots {
-	top: 86.7vw;
-	height: 10vw;
-	left: 50%;
-}
 #n2t2 {
 	font-size: 1.8vw;
 	line-height: 2.3vw;
@@ -1825,6 +1857,91 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #n2t2 span {
 	font-weight: 700;
+}
+
+/* dokumenti */
+
+#d1text {
+	position: absolute;
+	top: 15vw;
+	left: 43%;
+}
+#d1t1 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 3.5vw;
+	left: 1.5vw;
+}
+#d1t2 {
+	position: absolute;
+	font-size: 3.7vw;
+	color: white;
+	line-height: 5vw;
+	top: 3.3vw;
+	left: 5.5vw;
+}
+#pdf-container-1 {
+	position: absolute;
+	top: 20vw;
+	left: 31%;
+	width: 40vw;
+	height: 13.5vw;
+}
+#pdf-container-2 {
+	position: absolute;
+	top: 40vw;
+	left: 31%;
+	width: 40vw;
+	height: 13.5vw;
+}
+#pdf-t1 {
+	position: absolute;
+	font-size: 1.8vw;
+	line-height: 2.3vw;
+	color: white;
+	top: 9vw;
+	left: 0;
+	width: 7vw;
+}
+#pdf-t2 {
+	position: absolute;
+	font-size: 1.8vw;
+	line-height: 2.3vw;
+	color: white;
+	top: 0;
+	left: 11vw;
+	width: 29vw;
+}
+#pdf-t2 span {
+	font-weight: 700;
+}
+#docs2 #docs-container {
+	position: absolute;
+	border-bottom: 0.1vw solid white;
+	height: 6.6vw;
+	width: 25.5vw;
+	top: 4vw;
+	left: 18vw;
+}
+#dct1 {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: 1vw;
+}
+#dct2 {
+	position: absolute;
+	color: #754c24;
+	font-size: 2.2vw;
+	top: 2.9vw;
+	left: 7vw;
+}
+#dct3 {
+	position: absolute;
+	color: white;
+	font-size: 1.5vw;
+	top: 4.8vw;
 }
 
 /* END TEXT */
