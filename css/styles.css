@@ -734,21 +734,23 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 40vw;
 }
 
-#bela1 {
+#samojako1 {
 	background: url('../img/bela-peciva/bela1.png') no-repeat;
 	background-size: 100% 29vw;
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
-#bela2 {
+#samojako2 {
 	background: url('../img/bela-peciva/bela2.png') no-repeat;
 	background-size: 100% 230vw;
 	background-position: center;
 	width: 100%;
 	height: 230vw;
+	position: relative;
 }
-#bela3 {
+#samojako3 {
 	background: url('../img/bela-peciva/bela3.png') no-repeat;
 	background-size: 130% auto;
 	background-position: bottom;
@@ -1483,6 +1485,53 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	position: absolute;
 }
 
+/* bela peciva */
+
+#bp1lines {
+	position: absolute;
+	top: 19vw;
+	left: 21vw;
+	height: 12vw;
+	width: 20vw;
+	border-left: 0.1vw solid white;
+	border-top: 0.1vw solid white;
+}
+#bp2lines1 {
+	position: absolute;
+	border-left: 0.1vw solid white;
+	top: 35vw;
+	left: 27%;
+	height: 10vw;
+}
+#bp2lines2 {
+	position: absolute;
+	border-left: 0.1vw solid white;
+	top: 67vw;
+	left: 27%;
+	height: 10vw;
+}
+#bp2lines3 {
+	position: absolute;
+	border-left: 0.1vw solid white;
+	top: 102.5vw;
+	left: 27%;
+	height: 10vw;
+}
+#bp2lines4 {
+	position: absolute;
+	border-left: 0.1vw solid white;
+	top: 140vw;
+	left: 27%;
+	height: 10vw;
+}
+#bp2lines5 {
+	position: absolute;
+	border-left: 0.1vw solid white;
+	top: 175vw;
+	left: 27%;
+	height: 10vw;
+}
+
 /* END ELEMENTS*/
 
 /* FONTS */
@@ -1942,6 +1991,52 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	color: white;
 	font-size: 1.5vw;
 	top: 4.8vw;
+}
+
+/* bela peciva */
+
+#bp1t1 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 6.5vw;
+	left: 23vw;
+	top: 12.5vw;
+}
+#bp2t1 {
+	position: absolute;
+	width: 30vw;
+	color: #707070;
+	font-size: 2vw;
+	line-height: 2.7vw;
+	border-bottom: 0.1vw solid #070707;
+	left: 45%;
+}
+#bp2t1, #bp2t2, #bp2t3, #bp2t4, #bp2t5, #bp2t6 {
+	position: absolute;
+	width: 30vw;
+	color: #998675;
+	font-size: 3.3vw;
+	line-height: 4vw;
+	border-bottom: 0.1vw solid #998675;
+	left: 50%;
+	padding-left: 1vw;
+	top: 20vw;
+}
+#bp2t2 {
+	top: 55vw;
+}
+#bp2t3 {
+	top: 90vw;
+}
+#bp2t4 {
+	top: 125vw;
+}
+#bp2t5 {
+	top: 160vw;
+}
+#bp2t6 {
+	top: 195vw;
 }
 
 /* END TEXT */
