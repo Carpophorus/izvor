@@ -1758,6 +1758,74 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	top: 10vw;
 	left: 4vw;
 }
+#n2t1 {
+	font-size: 1.8vw;
+	line-height: 2.3vw;
+	color: white;
+	position: absolute;
+	top: 25vw;
+	left: 13vw;
+	width: 40vw;
+}
+#n2t1 span {
+	font-weight: 700;
+}
+#new2 #nika-container-2 {
+	position: absolute;
+	border-bottom: 0.1vw solid white;
+	height: 10vw;
+	width: 35vw;
+	top: 102vw;
+	left: 33vw;
+}
+#nct1-2 {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: 11vw;
+}
+#nct2-2 {
+	position: absolute;
+	color: #754c24;
+	font-size: 2.4vw;
+	top: 2.9vw;
+	left: 16vw;
+}
+#nct3-2 {
+	position: absolute;
+	color: #754c24;
+	font-size: 2.4vw;
+	top: 5.2vw;
+	left: 10vw;
+}
+#nct4-2 {
+	position: absolute;
+	color: white;
+	font-size: 2.4vw;
+	top: 7.5vw;
+	left: 18vw;
+}
+#n2-circle {
+	top: 97vw;
+	left: 49.5%;
+}
+#n2-dots {
+	top: 86.7vw;
+	height: 10vw;
+	left: 50%;
+}
+#n2t2 {
+	font-size: 1.8vw;
+	line-height: 2.3vw;
+	position: absolute;
+	color: #707070;
+	top: 115vw;
+	left: 40%;
+	width: 50%;
+}
+#n2t2 span {
+	font-weight: 700;
+}
 
 /* END TEXT */
 
