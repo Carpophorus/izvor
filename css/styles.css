@@ -986,6 +986,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #half2 {
 	background: url('../img/polupeceni-program/half2.png') no-repeat;
@@ -993,6 +994,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 172vw;
+	position: relative;
 }
 #half3 {
 	background: url('../img/polupeceni-program/half3.png') no-repeat;
@@ -1557,6 +1559,17 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	left: -1vw;
 }
 
+/* polupečeni program */
+
+#pp1lines {
+	position: absolute;
+	top: 19vw;
+	left: 20%;
+	height: 12vw;
+	width: 40%;
+	border-top: 0.1vw solid white;
+}
+
 /* END ELEMENTS*/
 
 /* FONTS */
@@ -2096,6 +2109,71 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	font-size: 1.5vw;
 	line-height: 1.9vw;
 	color: #998675;
+}
+
+/* polupeceni program */
+
+#pp1t1 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 6.5vw;
+	left: 22vw;
+	top: 12.5vw;
+}
+#pp2tc1, #pp2tc3, #pp2tc5 {
+	position: absolute;
+	top: 18vw;
+	left: 50%;
+	width: 40%;
+	height: 3vw;
+	border-bottom: 0.2vw solid white;
+}
+#pp2tc3 {
+	top: 66vw;
+}
+#pp2tc5 {
+	top: 114vw;
+}
+#pp2tct1 {
+	position: absolute;
+	color: #998675;
+	line-height: 3vw;
+	font-size: 2.1vw;
+	left: 9vw;
+}
+#pp2tct2 {
+	color: #998675;
+	font-size: 1.5vw;
+	line-height: 1.9vw;
+}
+#pp2tc2, #pp2tc4, #pp2tc6 {
+	position: absolute;
+	top: 41vw;
+	right: 50%;
+	width: 40%;
+	height: 3vw;
+	border-bottom: 0.2vw solid white;
+}
+#pp2tc4 {
+	top: 90vw;
+}
+#pp2tc6 {
+	top: 138vw;
+}
+#pp2tct3 {
+	position: absolute;
+	color: #998675;
+	line-height: 3vw;
+	font-size: 2.1vw;
+	right: 7vw;
+	text-align: right;
+}
+#pp2tct4 {
+	color: #998675;
+	font-size: 1.5vw;
+	line-height: 1.9vw;
+	text-align: right;
 }
 
 /* END TEXT */
