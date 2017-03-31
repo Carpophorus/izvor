@@ -795,6 +795,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #hleb2 {
 	background: url('../img/hleb/hleb2.png') no-repeat;
@@ -802,6 +803,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 117vw;
+	position: relative;
 }
 #hleb3, #pogace3 {
 	background: url('../img/hleb/hleb3.png') no-repeat;
@@ -1487,12 +1489,12 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 /* bela peciva */
 
-#bp1lines {
+#bp1lines, #hl1lines {
 	position: absolute;
 	top: 19vw;
-	left: 21vw;
+	left: 27%;
 	height: 12vw;
-	width: 20vw;
+	width: 20%;
 	border-left: 0.1vw solid white;
 	border-top: 0.1vw solid white;
 }
@@ -1530,6 +1532,29 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	top: 175vw;
 	left: 27%;
 	height: 10vw;
+}
+
+/* hleb */
+
+#hl1lines {
+	width: 30%;
+}
+#hl2lines1, #hl2lines2, #hl2lines3 {
+	position: absolute;
+	left: 27%;
+	top: 4vw;
+	border-left: 0.1vw solid white;
+	height: 13.4vw;
+}
+#hl2lines2 {
+	top: 37.3vw;
+}
+#hl2lines3 {
+	top: 70.6vw;
+}
+#hl2c {
+	top: 60%;
+	left: -1vw;
 }
 
 /* END ELEMENTS*/
@@ -1995,12 +2020,12 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 /* bela peciva */
 
-#bp1t1 {
+#bp1t1, #hl1t1 {
 	position: absolute;
 	font-size: 5vw;
 	color: white;
 	line-height: 6.5vw;
-	left: 23vw;
+	left: 29vw;
 	top: 12.5vw;
 }
 #bp2t1 {
@@ -2037,6 +2062,40 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #bp2t6 {
 	top: 195vw;
+}
+
+/* hleb */
+
+#hl2tc1, #hl2tc2, #hl2tc3 {
+	position: absolute;
+	left: 45%;
+	top: 13vw;
+	width: 30%;
+	height: 3vw;
+	border-bottom: 0.1vw solid #998675;
+}
+#hl2tc2 {
+	top: 46vw;
+}
+#hl2tc3 {
+	top: 79vw;
+}
+#hl2tc1t1 {
+	position: absolute;
+	left: 6vw;
+	font-size: 2vw;
+	color: #998675;
+}
+#hl2tc1t1 span {
+	font-size: 3.5vw;
+}
+#hl2tc1t2 {
+	position: absolute;
+	left: 6vw;
+	top: 3.7vw;
+	font-size: 1.5vw;
+	line-height: 1.9vw;
+	color: #998675;
 }
 
 /* END TEXT */
