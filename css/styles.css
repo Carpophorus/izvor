@@ -1015,6 +1015,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #salty2 {
 	background: url('../img/slana-peciva/salty2.png') no-repeat;
@@ -1022,6 +1023,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 169vw;
+	position: relative;
 }
 #salty22 {
 	background: url('../img/slana-peciva/salty22.png') no-repeat;
@@ -1266,6 +1268,9 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	right: 0;
 	margin: auto;
 }
+#return-home a {
+	width: 45%;
+}
 #return-home-1 {
 	height: 4vw;
 }
@@ -1289,6 +1294,43 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	color: white;
 	font-size: 1.3vw;
 	line-height: 4vw;
+}
+
+#next {
+	position: absolute;
+	height: 4vw;
+	width: 85.9%;
+	bottom: 5vw;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#next a {
+	width: 50%;
+	position: absolute;
+	right: 0;
+}
+#next-1 {
+	height: 4vw;
+}
+#next-circle {
+	position: absolute;
+	top: 1vw;
+	right: -1vw;
+}
+#next-dots {
+	position: absolute;
+	width: 16vw;
+	top: 1.5vw;
+	right: 2.5vw;
+}
+#next-text {
+	position: absolute;
+	right: 20vw;
+	color: white;
+	font-size: 1.3vw;
+	line-height: 4vw;
+	text-align: right;
 }
 
 /* index */
@@ -1689,6 +1731,18 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	right: 23.5%;
 	top: 69.4vw;
 	z-index: 30;
+}
+
+/* slana peciva */
+
+#slp1lines {
+	position: absolute;
+	top: 19vw;
+	left: 25%;
+	height: 12vw;
+	width: 49%;
+	border-top: 0.1vw solid white;
+	border-left: 0.1vw solid white;
 }
 
 /* END ELEMENTS*/
@@ -2416,6 +2470,50 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	color: #998675;
 	font-size: 1.2vw;
 	line-height: 1.9vw;
+}
+
+/* slana peciva*/
+
+#slp1t1 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 6.5vw;
+	left: 55%;
+	top: 12.5vw;
+}
+.slp2t {
+	position: absolute;
+	color: #998675;
+	line-height: 3.5vw;
+	height: 3.5vw;
+	font-size: 3vw;
+	width: 30%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-bottom: 0.1vw solid white;
+}
+#slp2t1 {
+	top: 21vw;
+	left: 50%;
+}
+#slp2t2 {
+	top: 51vw;
+	right: 50%;
+	text-align: right;
+}
+#slp2t3 {
+	top: 80vw;
+	left: 50%;
+}
+#slp2t4 {
+	top: 106vw;
+	right: 50%;
+	text-align: right;
+}
+#slp2t5 {
+	top: 136vw;
+	left: 50%;
 }
 
 /* END TEXT */
