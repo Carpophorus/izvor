@@ -971,6 +971,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 29vw;
+	position: relative;
 }
 #pogace2 {
 	background: url('../img/pogace/pogace2.png') no-repeat;
@@ -978,6 +979,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 183vw;
+	position: relative;
 }
 
 #half1 {
@@ -1582,6 +1584,43 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 30%;
 	border-top: 0.1vw solid white;
 	border-left: 0.1vw solid white;
+}
+
+/* pogače */
+#pg1lines {
+	position: absolute;
+	top: 19vw;
+	left: 55%;
+	height: 12vw;
+	width: 35%;
+	border-top: 0.1vw solid white;
+}
+#pg2l1, #pg2l2, #pg2l3, #pg2l4, #pg2l5 {
+	position: absolute;
+	left: 10%;
+	height: 10%;
+	border-left: 0.1vw solid white;
+}
+#pg2l1 {
+	top: 4.5%;
+}
+#pg2l2 {
+	top: 23.5%;
+}
+#pg2l3 {
+	top: 42.2%;
+}
+#pg2l4 {
+	top: 61.3%;
+}
+#pg2l5 {
+	top: 81%;
+}
+#pg2c {
+	position: absolute;
+	top: 65%;
+	left: -1vw;
+	z-index: 30;
 }
 
 /* END ELEMENTS*/
@@ -2197,7 +2236,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	font-size: 5vw;
 	color: white;
 	line-height: 6.5vw;
-	left: 22vw;
+	left: 22%;
 	top: 12.5vw;
 }
 .sp2t {
@@ -2227,6 +2266,43 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #sp2t6 {
 	top: 210vw;
+}
+
+/* pogače */
+
+#pg1t1 {
+	position: absolute;
+	font-size: 5vw;
+	color: white;
+	line-height: 6.5vw;
+	left: 70%;
+	top: 12.5vw;
+}
+.pg2t {
+	position: absolute;
+	color: #998675;
+	line-height: 3vw;
+	height: 3vw;
+	font-size: 2.5vw;
+	left: 50%;
+	width: 30%;
+	padding-left: 7%;
+	border-bottom: 0.2vw solid white;
+}
+#pg2t1 {
+	top: 18vw;
+}
+#pg2t2 {
+	top: 53vw;
+}
+#pg2t3 {
+	top: 87vw;
+}
+#pg2t4 {
+	top: 122vw;
+}
+#pg2t5 {
+	top: 158vw;
 }
 
 /* END TEXT */
