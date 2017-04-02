@@ -1031,6 +1031,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	height: 193vw;
+	position: relative;
 }
 #salty3 {
 	background: url('../img/slana-peciva/salty3.png') no-repeat;
@@ -2495,11 +2496,11 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #slp2t1 {
 	top: 21vw;
-	left: 50%;
+	left: 40%;
 }
 #slp2t2 {
 	top: 51vw;
-	right: 50%;
+	right: 40%;
 	text-align: right;
 }
 #slp2t3 {
@@ -2508,12 +2509,46 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #slp2t4 {
 	top: 106vw;
-	right: 50%;
+	right: 40%;
 	text-align: right;
 }
 #slp2t5 {
 	top: 136vw;
 	left: 50%;
+}
+#slp22t1 {
+	top: 21vw;
+	left: 45%;
+}
+#slp22t2 {
+	top: 42vw;
+	right: 40%;
+	text-align: right;
+}
+#slp22t22 {
+	top: 48.5vw;
+	font-size: 1.8vw;
+	right: 40%;
+	text-align: right;
+	border-bottom: 0;
+}
+#slp22t3 {
+	top: 77vw;
+	left: 45%;
+}
+#slp22t4 {
+	top: 104vw;
+	right: 45%;
+	text-align: right;
+}
+#slp22t5 {
+	top: 134vw;
+	left: 53%;
+}
+#slp22t6 {
+	top: 156vw;
+	right: 45%;
+	text-align: right;
 }
 
 /* END TEXT */
