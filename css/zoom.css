@@ -14,7 +14,7 @@
 
 	h2 {
 		font-family: serif;
-		font-size: 1.45vw;
+		font-size: 14.5px;
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-top: 18%;
@@ -23,11 +23,11 @@
 
 	.navbar-header {
 		width: 100%;
-		height: 4.4vw;
+		height: 44px;
 	}
 
 	nav .container {
-		width: 45%;
+		width: 450px;
 		margin: auto;
 	}
 
@@ -72,29 +72,31 @@
 	}
 
 	.no-fixer {
-		margin: auto;
-		width: 45%;
-		height: 4.4vw;
+		width: 450px;
+		height: 44px;
 		z-index: 107;
 		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
 		margin-top: 54vw;
-		margin-left: 27.5%;
 	}
 
 	.fixer {
 		margin: auto;
-		width: 45%;
-		height: 4.4vw;
+		width: 450px;
+		height: 44px;
 		z-index: 107;
 		position: fixed;
-		margin-top: 0;
-		margin-left: 27.5%;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 
 	.no-fixer1 {
 		margin: auto;
-		width: 10%;
-		height: 4.4vw;
+		width: 100px;
+		height: 44px;
 		z-index: 106;
 		position: absolute;
 		margin-top: 53vw;
@@ -104,33 +106,37 @@
 
 	.fixer1 {
 		margin: auto;
-		width: 10%;
-		height: 4.4vw;
+		width: 100px;
+		height: 44px;
 		z-index: 106;
 		position: fixed;
-		margin-top: -1vw;
-		margin-left: 74.7%;
+		margin-top: -14px;
+		margin-left: 0;
+		right: 0;
+		margin-right: 150px;
 		text-align: center;
 	}
 
 	.no-fixer2 {
-		margin: auto;
-		width: 45%;
-		height: 4.4vw;
+		width: 450px;
+		height: 44px;
 		z-index: 106;
 		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
 		margin-top: 54.5vw;
-		margin-left: 27.5%;
 	}
 
 	.fixer3, .fixer2 {
-		margin: auto;
-		width: 45%;
-		height: 4.4vw;
+		width: 450px;
+		height: 44px;
 		z-index: 106;
 		position: fixed;
-		margin-top: 1.4vw;
-		margin-left: 27.5%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-top: 14px;
 	}
 
 	#slogan {
@@ -138,20 +144,11 @@
 		background-size: 100% auto;
 		position: absolute;
 		z-index: 102;
-		margin-left: 40.5%;
-		height: 4.4vw;
-		width: 19vw;
-	}
-
-	#slogan-mobile {
-		background: url('../img/slogan mobile.svg') no-repeat;
-		background-size: 100% auto;
-		position: fixed;
-		z-index: 105;
-		margin-left: 35%;
-		margin-top: -6vw;
-		height: 5vw;
-		width: 40%;
+		height: 44px;
+		width: 190px;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 
 	#menu-items-scroll div, #menu-lines-scroll div, #menu-lines-scroll-x div {
@@ -162,11 +159,11 @@
 
 	#menu-lines-scroll #item, #menu-lines-scroll-x #item {
 		border-right: 0.1vw solid #555555;
-		height: 3vw;
+		height: 30px;
 	}
 
 	#menu-lines-scroll-x #item-last {
-		height: 3vw;
+		height: 30px;
 	}
 
 	#menu-items div {
@@ -176,190 +173,71 @@
 	#social {
 		position: fixed;
 		z-index: 105;
-		margin-left: 87%;
-		margin-top: 0.3vw;
-		height: 3.5vw;
-		width: 8vw;
+		margin-left: 0;
+		right: 0;
+		margin-right: 50px;
+		margin-top: 3px;
+		height: 35px;
+		width: 80px;
 		border-bottom: 0.07vw solid #AAAAAA;
 	}
 	#fb {
 		background: url('../img/fb.svg') no-repeat;
-		background-size: 2.6vw auto;
+		background-size: 26px auto;
 		background-position: center;
-		width: 4vw;
-		height: 3.5vw;
+		width: 40px;
+		height: 35px;
 		float: left;
 	}
 	#ig {
 		background: url('../img/ig.svg') no-repeat;
-		background-size: 2.6vw auto;
+		background-size: 26px auto;
 		background-position: center;
-		width: 4vw;
-		height: 3.5vw;
+		width: 40px;
+		height: 35px;
 		float: left;
 	}
 
 	#logo {
 		float: left;
 		margin-top: -0.7vw;
-		margin-left: 14.5%;
+		margin-left: 145px;
 		position: fixed;
 		z-index: 101;
 	}
 
 	#logo-img {
 		background: url('../img/logo.png') no-repeat;
-		background-size: 12.5vw auto;
+		background-size: 125px auto;
 		background-position: center;
-		width: 12.5vw;
-		height: 12.5vw;
+		width: 125px;
+		height: 125px;
 	}
 
 	#lace {
-		background: url('../img/lace.svg') no-repeat;
-		background-size: 110% auto;
+		background: url('../img/lace.svg') repeat;
+		background-size: auto 42px;
 		background-position: top;
 		width: 100%;
-		height: 4.2vw;
+		height: 42px;
 		background-color: transparent;
 		float: left;
-		margin-top: 4.4vw;
+		margin-top: 44px;
 		position: fixed;
 		z-index: 100;
-	}
-
-	#collapsable-nav ul {
-		padding: 0;
-	}
-
-	.navbar-collapse {
-		border: none;
-	}
-
-	.navbar-collapse.in {
-		overflow-y: visible;
-		min-height: 60vw;
 	}
 
 	.navbar-fixed-top {
 		z-index: 100;
 	}
 
-	.navbar-fixed-top .navbar-collapse {
-		max-height: 60vw;
-	}
-
-	#mobile-container .navbar-header {
-		height: 10vw;
-		margin: 0;
-	}
-
-	#navbarToggle {
-		width: 7vw;
-		height: 7vw;
-		margin: 1.5vw;
-		margin-right: 6vw;
-		padding: 0;
-		border: none;
-	}
-
-	#menu-icon {
-		background: url('../img/menu.svg') no-repeat;
-		background-size: 7vw 7vw;
-		background-position: center;
-		width: 7vw;
-		height: 7vw;
-	}
-
-	li a h2 {
-		margin-top: 0.3vw;
-		margin-bottom: 0.3vw;
-	}
-
-	#nav-list li a {
-		padding: 0;
-	}
-
 	/* END HEADER*/
-
-	/* FOOTER */
-
-	.panel-footer {
-		padding: 0.6vw;
-		background-color: white;
-		border: none;
-	}
-
-	footer {
-		height: 2vw;
-	}
-
-	footer div {
-		font-size: 1vw;
-		line-height: 1vw;
-		text-align: center;
-		color: #999999;
-		background-color: white;
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 300;
-	}
-
-	#social-footer {
-		width: 100%;
-		height: 10vw;
-		background-color: #E6E6E6;
-	}
-	#sfctext {
-		width: 16vw;
-		height: 1vw;
-		margin: auto;
-		text-align: center;
-		padding-top: 2vw;
-		padding-bottom: 1vw;
-		font-size: 1.5vw;
-		color: darkred;
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 400;
-	}
-	#sfc {
-		width: 12vw;
-		height: 6vw;
-		border-bottom: 0.07vw solid white;
-		margin: auto;
-	}
-	#fbf {
-		background: url('../img/fb.svg') no-repeat;
-		background-size: 3vw auto;
-		background-position: center;
-		width: 4vw;
-		height: 6vw;
-		float: left;
-		margin-left: 2vw;
-	}
-	#igf {
-		background: url('../img/ig.svg') no-repeat;
-		background-size: 3vw auto;
-		background-position: center;
-		width: 4vw;
-		height: 6vw;
-		float: left;
-	}
-
-	/* END FOOTER */
 
 	/* OTHER */
 
 	body {
-		font-size: 1vw;
-		line-height: 1.2vw;
-	}
-
-	a:link, a:visited, a:hover, a:focus, a:active {
-	  text-decoration: none;
-	  color: inherit;
-	  display: block;
-	  border: 0;
-	  outline: none;
+		font-size: 10px;
+		line-height: 12px;
 	}
 
 	.container {
@@ -376,29 +254,23 @@
 		width: 100%;
 	}
 
-	#index1 {
-		background: url('../img/index/index1.png') no-repeat;
-		background-size: 100% 69vw;
-		background-position: center;
-		width: 100%;
-		height: 54.5vw;
-	}
 	#index2 {
 		background: url('../img/index/index2.png') no-repeat;
 		background-size: 110% auto;
 		background-position: center;
 		background-attachment: fixed;
 		width: 100%;
-		height: 20vw;
+		height: 200px;
 		opacity: 0.9;
 		position: relative;
 	}
 	#index3 {
 		background: url('../img/index/index3.png') no-repeat;
-		background-size: 100% 30vw;
+		background-size: 100% auto;
 		background-position: center;
-		width: 100%;
-		height: 30vw;
+		width: 1000px;
+		height: 300px;
+		margin: auto;
 		-webkit-transform: translateZ( 0 );
 	    transform: translateZ( 0 );
 	    -webkit-transition: -webkit-transform 0.6s ease-in-out;
@@ -413,16 +285,17 @@
 		background-position: center;
 		background-attachment: fixed;
 		width: 100%;
-		height: 20vw;
+		height: 200px;
 		opacity: 0.9;
 		position: relative;
 	}
 	#index5 {
 		background: url('../img/index/index5.png') no-repeat;
-		background-size: 100% 30vw;
+		background-size: 100% auto;
 		background-position: center;
-		width: 100%;
-		height: 30vw;
+		width: 1000px;
+		height: 300px;
+		margin: auto;
 		position: relative;
 	}
 	#index6 {
@@ -431,24 +304,25 @@
 		background-position: center;
 		background-attachment: fixed;
 		width: 100%;
-		height: 20vw;
+		height: 200px;
 		opacity: 0.9;
 		position: relative;
 	}
 	#index7 {
 		background: url('../img/index/index7.png') no-repeat;
-		background-size: 100% 30vw;
+		background-size: 100% auto;
 		background-position: center;
-		width: 100%;
-		height: 30vw;
+		width: 1000px;
+		height: 300px;
+		margin: auto;
 		position: relative;
 	}
 	#i7img {
 		background: url('../img/proizvedeno u srbiji.png') no-repeat;
 		background-size: 100% auto;
 		background-position: center;
-		width: 9vw;
-		height: 9vw;
+		width: 90px;
+		height: 90px;
 		position: absolute;
 		top: 15%;
 		left: 78%;
@@ -459,7 +333,7 @@
 		background-position: center;
 		background-attachment: fixed;
 		width: 100%;
-		height: 20vw;
+		height: 200px;
 		opacity: 0.9;
 		position: relative;
 	}
@@ -467,26 +341,27 @@
 		background: url('../img/index/index9.png') no-repeat;
 		background-size: 50% auto;
 		background-position: left top;
-		width: 100%;
-		height: 41vw;
+		width: 1000px;
+		height: 410px;
+		margin: auto;
 	}
 
 	/* contact form */
 
 	#form-container {
 		margin-left: 50%;
-		padding: 2vw;
+		padding: 20px;
 		height: 100%;
 		position: relative;
 		color: darkred;
-		font-size: 1.1vw;
+		font-size: 11px;
 	}
 	#form-container div, #form-container input, #form-container textarea {
-		margin-left: 3vw;
+		margin-left: 30px;
 	}
 	#form-vline {
 		border-left: 0.1vw solid #707070;
-		height: 37vw;
+		height: 370px;
 		position: absolute;
 		left: 0;
 	}
@@ -496,27 +371,27 @@
 	}
 	#form-container #f8 {
 		width: 20%;
-		height: 2.5vw;
-		margin-top: 0.8vw;
+		height: 25px;
+		margin-top: 8px;
 		color: darkred;
 	}
 	#f1 {
 		color: #707070;
-		font-size: 1.6vw;
-		line-height: 2.1vw;
+		font-size: 16px;
+		line-height: 21px;
 		border-bottom: 0.1vw solid #707070;
 		width: 30%;
-		margin-top: 5vw;
+		margin-top: 50px;
 	}
 	#f2, #f4, #f6, #f9, #f10, #f11 {
-		margin-top: 1vw;
-		line-height: 1.6vw;
+		margin-top: 10px;
+		line-height: 16px;
 	}
 	#f10, #f11 {
-		margin-top: 0.4vw;
+		margin-top: 4px;
 	}
 	#f3, #f5, #f7 {
-		padding: 0.4vw;
+		padding: 4px;
 	}
 
 	/* end contact form */
@@ -539,111 +414,25 @@
 		height: 5vw;
 	}
 
-	#about1 {
-		background: url('../img/o-nama/about1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#about2 {
+	#main-content #about2 {
 		background: url('../img/o-nama/about2.png') no-repeat;
 		background-size: 100% 100%;
 		background-position: center;
-		width: 100%;
-		padding: 7vw;
-		padding-bottom: 10vw;
+		width: 1000px;
+		padding: 70px;
+		padding-bottom: 100px;
 		text-align: justify;
 		position: relative;
-	}
-	#about3 {
-		background: url('../img/o-nama/about3.png') no-repeat;
-		background-size: 125% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 65vw;
+		margin: auto;
 	}
 	.about-slideshow-container {
-		height: 35vw;
-		width: 50vw;
+		height: 350px;
+		width: 500px;
 		float: right;
-		margin-left: 3vw;
-		margin-bottom: 3vw;
+		margin-left: 30px;
+		margin-bottom: 30px;
 		margin-top: 0;
 		position: relative;
-	}
-	@-webkit-keyframes fade {
-	    0% {opacity: 0;}
-	    12.5% {opacity: 1;}
-	    25% {opacity: 0;}
-	    100% {opacity: 0;}
-	}
-	@keyframes fade-about {
-	    0% {opacity: 0;}
-	    12.5% {opacity: 1;}
-	    25% {opacity: 0;}
-	    100% {opacity: 0;}
-	}
-	.about-slideshow {
-		width: 100%;
-		height: 100%;
-		background-color: black;
-		position: absolute;
-		animation-name: fade-about;
-		-webkit-animation-name: fade-about;
-		animation-iteration-count: infinite;
-	    -webkit-animation-iteration-count: infinite;
-	    animation-duration: 40s;
-	    -webkit-animation-duration: 40s;
-	}
-	#about-slideshow-1 {
-		background: url('../img/o-nama/desno_1.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-	}
-	#about-slideshow-2 {
-		background: url('../img/o-nama/desno_2.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -5s;
-	}
-	#about-slideshow-3 {
-		background: url('../img/o-nama/desno_3.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -10s;
-	}
-	#about-slideshow-4 {
-		background: url('../img/o-nama/desno_4.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -15s;
-	}
-	#about-slideshow-5 {
-		background: url('../img/o-nama/desno_5.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -20s;
-	}
-	#about-slideshow-6 {
-		background: url('../img/o-nama/desno_6.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -25s;
-	}
-	#about-slideshow-7 {
-		background: url('../img/o-nama/desno_7.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -30s;
-	}
-	#about-slideshow-8 {
-		background: url('../img/o-nama/desno_8.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -35s;
 	}
 
 	#history1 {
@@ -812,8 +601,8 @@
 	}
 
 	#docs a h2, #docs1 a h2 {
-		line-height: 1.2vw;
-		padding-top: 2vw;
+		line-height: 12px;
+		padding-top: 23px;
 	}
 
 	#docs1 {
@@ -1296,9 +1085,9 @@
 
 	.circle {
 		position: absolute;
-		width: 2vw;
-		height: 2vw;
-		border-radius: 1vw;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
 		background-color: #ff9933;
 	}
 
@@ -1306,60 +1095,54 @@
 		position: absolute;
 		background: url('../img/white square.png') repeat;
 		background-size: auto 100%;
-		height: 1vw;
+		height: 10px;
 	}
 
 	.vertical-squares {
 		position: absolute;
 		background: url('../img/white square.png') repeat;
 		background-size: 100% auto;
-		width: 1vw;
+		width: 10px;
 	}
 
 	/* general */
 
 	#return-home {
 		position: absolute;
-		height: 4vw;
+		height: 40px;
 		width: 85.9%;
-		bottom: 1vw;
+		bottom: 10px;
 		left: 0;
 		right: 0;
 		margin: auto;
 	}
-	#return-home a {
-		width: 45%;
-	}
 	#return-home-1 {
-		height: 4vw;
-	}
-	#return-home-2 {
-		border-bottom: 0.1vw solid white;
+		height: 40px;
 	}
 	#return-home-circle {
 		position: absolute;
-		top: 1vw;
-		left: -1vw;
+		top: 10px;
+		left: -10px;
 	}
 	#return-home-dots {
 		position: absolute;
 		width: 16%;
-		top: 1.5vw;
-		left: 2.5%;
+		top: 15px;
+		left: 25px;
 	}
 	#return-home-text {
 		position: absolute;
 		left: 20%;
 		color: white;
-		font-size: 1.3vw;
-		line-height: 4vw;
+		font-size: 13px;
+		line-height: 40px;
 	}
 
 	#next {
 		position: absolute;
-		height: 4vw;
+		height: 40px;
 		width: 85.9%;
-		bottom: 5vw;
+		bottom: 50px;
 		left: 0;
 		right: 0;
 		margin: auto;
@@ -1370,130 +1153,26 @@
 		right: 0;
 	}
 	#next-1 {
-		height: 4vw;
+		height: 40px;
 	}
 	#next-circle {
 		position: absolute;
-		top: 1vw;
-		right: -1vw;
+		top: 10px;
+		right: -10px;
 	}
 	#next-dots {
 		position: absolute;
-		width: 16vw;
-		top: 1.5vw;
-		right: 2.5vw;
+		width: 160px;
+		top: 15px;
+		right: 25px;
 	}
 	#next-text {
 		position: absolute;
-		right: 20vw;
+		right: 200px;
 		color: white;
-		font-size: 1.3vw;
-		line-height: 4vw;
+		font-size: 13px;
+		line-height: 40px;
 		text-align: right;
-	}
-
-	/* index */
-
-	#i6dots {
-		position: absolute;
-		height: 33%;
-		left: 49.5%;
-	}
-	#i2lines1, #i6lines1 {
-		position: absolute;
-		height: 10%;
-		border-right: 0.1vw solid white;
-		border-bottom: 0.1vw solid white;
-		top: 50%;
-		right: 50%;
-		width: 30%;
-	}
-	#i2lines2, #i6lines2 {
-		position: absolute;
-		height: 40%;
-		border-left: 0.1vw solid white;
-		top: 60%;
-		right: 50%;
-		width: 30%;
-	}
-	#i2circle, #i6circle {
-		position: absolute;
-		top: 37%;
-		left: 49%;
-	}
-	#i3lines {
-		position: absolute;
-		top: 40%;
-		left: 66%;
-		height: 50%;
-		width: 18%;
-		border-left: 0.1vw solid white;
-		border-bottom: 0.1vw solid white;
-	}
-	#i4dots, #i8dots {
-		position: absolute;
-		height: 33%;
-		left: 19.5%;
-	}
-	#i4lines1, #i8lines1 {
-		position: absolute;
-		height: 10%;
-		border-left: 0.1vw solid white;
-		border-bottom: 0.1vw solid white;
-		top: 50%;
-		right: 50%;
-		width: 30%;
-	}
-	#i4lines2, #i8lines2 {
-		position: absolute;
-		height: 40%;
-		border-right: 0.1vw solid white;
-		top: 60%;
-		right: 50%;
-		width: 30%;
-	}
-	#i4circle, #i8circle {
-		position: absolute;
-		top: 37%;
-		left: 19%;
-	}
-	#i5lines {
-		position: absolute;
-		top: 22%;
-		left: 66%;
-		height: 70%;
-		width: 18%;
-		border-left: 0.1vw solid white;
-		border-bottom: 0.1vw solid white;
-	}
-	#i7lines {
-		position: absolute;
-		top: 49%;
-		left: 66%;
-		height: 43%;
-		width: 18%;
-		border-left: 0.1vw solid white;
-		border-bottom: 0.1vw solid white;
-	}
-
-	/* o-nama */
-
-	#a1lines {
-		position: absolute;
-		top: -7vw;
-		left: 7vw;
-		height: 14vw;
-		width: 34.7vw;
-		border-bottom: 0.1vw solid white;	
-	}
-	#a2lines {
-		position: absolute;
-		top: -7vw;
-		left: 41.7vw;
-		height: 14vw;
-		width: 30vw;
-		border-left: 0.1vw solid white;
-		border-top: 0.1vw solid white;
 	}
 
 	/* istorijat */
@@ -1878,90 +1557,91 @@
 
 	#i3text {
 		color: white;
-		font-size: 1.5vw;
-		line-height: 1.8vw;
+		font-size: 15px;
+		line-height: 18px;
 		position: absolute;
-		width: 32vw;
-		height: 12vw;
+		width: 320px;
+		height: 120px;
 		top: 39%;
 		left: 67%;
 	}
 	#i3details {
 		color: white;
-		font-size: 1.5vw;
-		line-height: 1.8vw;
+		font-size: 15px;
+		line-height: 18px;
 		position: absolute;
-		width: 10vw;
-		height: 2vw;
+		width: 100px;
+		height: 20px;
 		top: 87%;
 		left: 85%;
 	}
 	#i4text, #i8text {
 		color: white;
 		background-color: rgba(0,0,0,0.2); 
-		font-size: 1.5vw;
+		font-size: 15px;
 		text-align: right;
-		line-height: 2.7vw;
+		line-height: 27px;
 		position: absolute;
-		padding-left: 4vw;
-		padding-right: 1vw;
+		padding-left: 40px;
+		padding-right: 10px;
 		top: 35.4%;
 		left: 18.7%;
-		border-top-left-radius: 1.2vw;
-		border-bottom-left-radius: 1.2vw;
+		border-top-left-radius: 12px;
+		border-bottom-left-radius: 12px;
 	}
 	#i5text {
 		color: white;
-		font-size: 1.5vw;
+		font-size: 15px;
 		text-align: justify;
-		line-height: 1.8vw;
+		line-height: 18px;
 		position: absolute;
-		width: 30vw;
-		height: 15vw;
+		width: 300px;
+		height: 150px;
 		top: 21%;
 		left: 67%;
 	}
 	#i5details {
 		color: white;
-		font-size: 1.5vw;
-		line-height: 1.8vw;
+		font-size: 15px;
+		line-height: 18px;
 		position: absolute;
-		width: 10vw;
-		height: 2vw;
+		width: 100px;
+		height: 20px;
 		top: 89%;
 		left: 85%;
 	}
 	#i6text {
 		color: white;
 		background-color: rgba(0,0,0,0.2); 
-		font-size: 1.5vw;
+		font-size: 15px;
 		text-align: left;
-		line-height: 2.7vw;
+		line-height: 27px;
 		position: absolute;
-		padding-right: 4vw;
-		padding-left: 1vw;
+		padding-right: 40px;
+		padding-left: 10px;
 		top: 35.4%;
 		right: 48.6%;
-		border-top-right-radius: 1.2vw;
-		border-bottom-right-radius: 1.2vw;
+		border-top-right-radius: 12px;
+		border-bottom-right-radius: 12px;
+		margin-right: 0.2vw;
 	}
 	#i7text {
 		color: darkred;
-		font-size: 1.5vw;
-		line-height: 1.8vw;
+		font-size: 15px;
+		line-height: 18px;
 		position: absolute;
-		width: 32vw;
-		height: 15vw;
+		width: 320px;
+		height: 150px;
 		top: 48%;
 		left: 67%;
 	}
 	#i7details {
 		color: white;
-		font-size: 1.5vw;
-		line-height: 1.8vw;
+		font-size: 15px;
+		line-height: 18px;
 		position: absolute;
-		width: 10vw;
-		height: 2vw;
+		width: 100px;
+		height: 20px;
 		top: 89%;
 		left: 85%;
 	}

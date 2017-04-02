@@ -1479,7 +1479,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 #a1lines {
 	position: absolute;
-	top: -7vw;
+	top: 22vw;
 	left: 7vw;
 	height: 14vw;
 	width: 34.7vw;
@@ -1487,7 +1487,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 }
 #a2lines {
 	position: absolute;
-	top: -7vw;
+	top: 22vw;
 	left: 41.7vw;
 	height: 14vw;
 	width: 30vw;
