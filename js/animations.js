@@ -14,21 +14,21 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    var s = $("#docs");
-    if (s == null) return;
-    $(window).scroll(function() {
-        var windowpos = $(window).scrollTop();
-        var width = $(window).width();
-        if (windowpos >= width*55/100) {
-            s.removeClass("no-fixer1");
-            s.addClass("fixer1");
-        } else {
-            s.removeClass("fixer1");
-            s.addClass("no-fixer1");
-        }
-    });
-});
+// $(document).ready(function() {
+//     var s = $("#docs");
+//     if (s == null) return;
+//     $(window).scroll(function() {
+//         var windowpos = $(window).scrollTop();
+//         var width = $(window).width();
+//         if (windowpos >= width*55/100) {
+//             s.removeClass("no-fixer1");
+//             s.addClass("fixer1");
+//         } else {
+//             s.removeClass("fixer1");
+//             s.addClass("no-fixer1");
+//         }
+//     });
+// });
 
 $(document).ready(function() {
     var s = $("#menu-lines-scroll");
