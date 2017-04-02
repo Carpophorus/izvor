@@ -1,8 +1,8 @@
 <?php
   if(isset($_POST['email'])) {
  
-    $email_to = "you@yourdomain.com";
-    $email_subject = "Your email subject line";
+    $email_to = "markomrkonjic9@gmail.com";
+    $email_subject = "Pekara Izvor - Poruka iz kontakt-forme";
 
     function died($error) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -12,19 +12,15 @@
         die();
     }
 
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
-        !isset($_POST['comments'])) {
+    if(!isset($_POST['name']) ||
+        !isset($_POST['e-mail']) ||
+        !isset($_POST['message'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
-    $email_from = $_POST['email']; // required
-    $telephone = $_POST['telephone']; // not required
-    $comments = $_POST['comments']; // required
+    $name = $_POST['name']; // required
+    $email_from = $_POST['e-mail']; // required
+    $comments = $_POST['message']; // required
 
     $error_message = "";
  
@@ -33,13 +29,9 @@
       $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
     }
    
-    $string_exp = "/^[A-Za-z .'-]+$/";
-    if(!preg_match($string_exp,$first_name)) {
-      $error_message .= 'The First Name you entered does not appear to be valid.<br />';
-    }
-    if(!preg_match($string_exp,$last_name)) {
-      $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
-   
+    $string_exp = "/^[A-Za-z .'-ŠĐČĆŽšđčćž]+$/";
+    if(!preg_match($string_exp,$name)) {
+      $error_message .= 'The Name you entered does not appear to be valid.<br />';
     }
 
     if(strlen($comments) < 2) {
@@ -50,18 +42,16 @@
       died($error_message);
     }
  
-    $email_message = "Form details below.\n\n";
+    $email_message = "\n\n";
 
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Ime: ".clean_string($name)."\n";
+    $email_message .= "e-mail: ".clean_string($email_from)."\n";
+    $email_message .= "Poruka: ".clean_string($comments)."\n";
  
     $headers = 'From: '.$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .

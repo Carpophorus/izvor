@@ -469,6 +469,57 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	width: 100%;
 	height: 41vw;
 }
+
+/* contact form*/
+
+#form-container {
+	margin-left: 50%;
+	padding: 2vw;
+	height: 100%;
+	position: relative;
+	color: darkred;
+	font-size: 1.1vw;
+}
+#form-container div, #form-container input, #form-container textarea {
+	margin-left: 3vw;
+}
+#form-vline {
+	border-left: 0.1vw solid #707070;
+	height: 37vw;
+	position: absolute;
+	left: 0;
+}
+#form-container input, #form-container textarea {
+	width: 70%;
+	color: #333333;
+}
+#form-container #f8 {
+	width: 20%;
+	height: 2.5vw;
+	margin-top: 0.8vw;
+	color: darkred;
+}
+#f1 {
+	color: #707070;
+	font-size: 1.6vw;
+	line-height: 2.1vw;
+	border-bottom: 0.1vw solid #707070;
+	width: 30%;
+	margin-top: 5vw;
+}
+#f2, #f4, #f6, #f9, #f10, #f11 {
+	margin-top: 1vw;
+	line-height: 1.6vw;
+}
+#f10, #f11 {
+	margin-top: 0.4vw;
+}
+#f3, #f5, #f7 {
+	padding: 0.4vw;
+}
+
+/* end contact form*/
+
 #index10, #products3 {
 	background: url('../img/index/index10.png') no-repeat;
 	background-size: 100% 57vw;
