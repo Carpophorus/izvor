@@ -470,7 +470,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 41vw;
 }
 
-/* contact form*/
+/* contact form */
 
 #form-container {
 	margin-left: 50%;
@@ -518,7 +518,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	padding: 0.4vw;
 }
 
-/* end contact form*/
+/* end contact form */
 
 #index10, #products3 {
 	background: url('../img/index/index10.png') no-repeat;
@@ -2803,7 +2803,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 /* MEDIA */
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
 	#main-content {
 		margin-top: 9vw;
 	}
@@ -2860,7 +2860,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	}
 }
 
-@media (min-width: 766px) and (max-width: 991px) { /* SM */
+@media (min-width: 766px) and (max-width: 991.5px) { /* SM */
 	/* BREAKPOINT CHANGE */
 	.navbar-header {
 		float: none;
