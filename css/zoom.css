@@ -110,7 +110,7 @@
 		height: 44px;
 		z-index: 106;
 		position: fixed;
-		margin-top: -14px;
+		margin-top: -10px;
 		margin-left: 0;
 		right: 0;
 		margin-right: 150px;
@@ -435,120 +435,21 @@
 		position: relative;
 	}
 
-	#history1 {
-		background: url('../img/istorijat/istorijat_kolor_1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#history2 {
+	/*#main-content #history2 {
 		background: url('../img/istorijat/history2.png') no-repeat;
 		background-size: 100% 100%;
 		background-position: center;
-		width: 100%;
+		width: 1000px;
 		position: relative;
-		padding-bottom: 5vw;
+		padding-bottom: 50px;
+		margin: auto;
 	}
-	#history3 {
-		background: url('../img/istorijat/history3.png') no-repeat;
-		background-size: 100% 86vw;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 70vw;
-	}
-	.history-slideshow-1-container {
-		height: 29vw;
-		width: 100%;
-		position: relative;
-	}
-	@-webkit-keyframes fade-history {
-	    0% {opacity: 0;}
-	    20% {opacity: 1;}
-	    40% {opacity: 0;}
-	    100% {opacity: 0;}
-	}
-	@keyframes fade-history {
-	    0% {opacity: 0;}
-	    20% {opacity: 1;}
-	    40% {opacity: 0;}
-	    100% {opacity: 0;}
-	}
-	.history-slideshow-1, .history-slideshow-2 {
-		width: 100%;
-		height: 100%;
-		background-color: black;
-		position: absolute;
-		animation-name: fade-history;
-		-webkit-animation-name: fade-history;
-		animation-iteration-count: infinite;
-	    -webkit-animation-iteration-count: infinite;
-	    animation-duration: 20s;
-	    -webkit-animation-duration: 20s;
-	}
-	#history-slideshow-1-2 {
-		background: url('../img/istorijat/istorijat_kolor_2.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-	}
-	#history-slideshow-1-3 {
-		background: url('../img/istorijat/istorijat_kolor_3.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -4s;
-	}
-	#history-slideshow-1-4 {
-		background: url('../img/istorijat/istorijat_kolor_4.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -8s;
-	}
-	#history-slideshow-1-5 {
-		background: url('../img/istorijat/istorijat_kolor_5.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -12s;
-	}
-	#history-slideshow-1-6 {
-		background: url('../img/istorijat/istorijat_kolor_6.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -16s;
-	}
-	.history-slideshow-2-container {
 
-	}
-	#history-slideshow-2-7 {
-		background: url('../img/istorijat/istorijat_kolor_7.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-	}
-	#history-slideshow-2-8 {
-		background: url('../img/istorijat/istorijat_kolor_8.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -4s;
-	}
-	#history-slideshow-2-9 {
-		background: url('../img/istorijat/istorijat_kolor_9.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -8s;
-	}
-	#history-slideshow-2-10 {
-		background: url('../img/istorijat/istorijat_kolor_10.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -12s;
-	}
-	#history-slideshow-2-11 {
-		background: url('../img/istorijat/istorijat_kolor_11.png') no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-		-webkit-animation-delay: -16s;
-	}
+	.history-slideshow-1-container {
+		height: 290px;
+		width: 100%;
+		position: relative;
+	}*/
 
 	#new1 {
 		background: url('../img/sta-je-novo/new1.png') no-repeat;
@@ -600,9 +501,13 @@
 		height: 20vw;
 	}
 
-	#docs a h2, #docs1 a h2 {
+	/*#docs a h2,*/ #docs1 a h2 {
 		line-height: 12px;
 		padding-top: 23px;
+	}
+	#docs a h2, #docs-x a h2 {
+		line-height: 15px;
+		padding-top: 18px;
 	}
 
 	#docs1 {
@@ -944,31 +849,24 @@
 		height: 20vw;
 	}
 
-	#products1 {
-		background: url('../img/proizvodi/products1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#products2 {
+	#main-content #products2 {
 		background: url('../img/proizvodi/products2.png') no-repeat;
 		background-size: 100% 149vw;
 		background-position: bottom;
-		width: 100%;
-		height: 40vw;
+		width: 1000px;
+		height: 400px;
 		position: relative;
+		margin: auto;
 	}
 	#products4 {
 		background: url('../img/proizvodi/products4.png') no-repeat;
 		background-size: 100% auto;
 		background-position: center;
 		position: absolute;
-		margin-top: -4.85vw;
+		margin-top: -45.5px;
 		margin-left: 15%;
 		width: 70%;
-		height: 40vw;
+		height: 400px;
 	}
 	#products5 {
 		background: url('../img/proizvodi/products5.png') no-repeat;
@@ -977,43 +875,28 @@
 		position: absolute;
 		margin-left: 15%;
 		width: 5%;
-		height: 13vw;
+		height: 130px;
 	}
 	#line1 {
 		width: 70%;
 		border-bottom: 0.1vw solid white;
 		position: absolute;
 		margin-left: 15%;
-		margin-top: 30.3vw;
+		margin-top: 303px;
 	}
 	#line2 {
 		width: 70%;
 		border-bottom: 0.1vw solid white;
 		position: absolute;
 		margin-left: 15%;
-		margin-top: 39vw;
-	}
-	#pnav {
-		visibility: hidden;
-	}
-	#pnav a {
-		float: left;
-		width: 10%;
-		margin-right: 1.25%;
-
-	}
-	#pnav #last {
-		margin-right: 0;
-	}
-	#pnav a div {
-		float: none;
+		margin-top: 390px;
 	}
 	#pp1 {
 		background: url('../img/proizvodi/pp1.png') no-repeat;
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp2 {
@@ -1021,7 +904,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp3 {
@@ -1029,7 +912,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp4 {
@@ -1037,7 +920,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp5 {
@@ -1045,7 +928,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp6 {
@@ -1053,7 +936,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp7 {
@@ -1061,7 +944,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp8 {
@@ -1069,7 +952,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 	#pp9 {
@@ -1077,7 +960,7 @@
 		background-size: 100% auto;
 		background-position: top;
 		width: 100%;
-		height: 18.7vw;
+		height: 187px;
 		border-bottom: 0.14vw solid white;
 	}
 
@@ -1106,6 +989,47 @@
 	}
 
 	/* general */
+
+	#history2 #return-home {
+		position: absolute;
+		height: 4vw;
+		width: 85.9%;
+		bottom: 1vw;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	#history2 #return-home a {
+		width: 45%;
+	}
+	#history2 #return-home-1 {
+		height: 4vw;
+	}
+	#history2 #return-home-2 {
+		border-bottom: 0.1vw solid white;
+	}
+	#history2 #return-home-circle {
+		position: absolute;
+		width: 2vw;
+		height: 2vw;
+		border-radius: 1vw;
+		top: 1vw;
+		left: -1vw;
+	}
+	#history2 #return-home-dots {
+		position: absolute;
+		width: 16%;
+		top: 1.5vw;
+		left: 2.5%;
+		height: 1vw;
+	}
+	#history2 #return-home-text {
+		position: absolute;
+		left: 20%;
+		color: white;
+		font-size: 1.3vw;
+		line-height: 4vw;
+	}
 
 	#return-home {
 		position: absolute;
@@ -1199,28 +1123,10 @@
 
 	#p2circle {
 		position: absolute;
-		top: 38.2vw;
+		top: 382px;
 		left: 0;
 		right: 0;
 		margin: auto;
-	}
-	#p1lines {
-		position: absolute;
-		top: 18vw;
-		left: 60vw;
-		height: 11vw;
-		width: 30vw;
-		border-left: 0.1vw solid white;
-		border-top: 0.1vw solid white;
-	}
-	#p1img {
-		background: url('../img/proizvedeno u srbiji.png') no-repeat;
-		background-size: 100% auto;
-		height: 6vw;
-		width: 6vw;
-		position: absolute;
-		top: 19vw;
-		left: 71vw;
 	}
 
 	/* sta-je-novo */
@@ -1687,6 +1593,9 @@
 	}
 	#h2tx-circle {
 		position: absolute;
+		width: 2vw;
+		height: 2vw;
+		border-radius: 1vw;
 		top: 3.3vw;
 		left: -1vw;
 	}
@@ -1716,38 +1625,30 @@
 	}
 
 	/* proizvodi */
-
-	#p1text {
-		position: absolute;
-		top: 14vw;
-		left: 61.5vw;
-		color: white;
-		font-size: 5vw;
-	}
 	#p2t1 {
 		position: absolute;
 		width: 100%;
 		text-align: center;
-		top: 32vw;
-		font-size: 2.2vw;
-		line-height: 3vw;
+		top: 320px;
+		font-size: 22px;
+		line-height: 30px;
 		color: #754c24;
 	}
 	#p2t2 {
 		position: absolute;
 		width: 100%;
 		text-align: center;
-		top: 35vw;
-		font-size: 1.8vw;
-		line-height: 3vw;
+		top: 350px;
+		font-size: 18px;
+		line-height: 30px;
 		color: #754c24;
 	}
 	#ptext {
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 700;
 		color: #754c24;
-		font-size: 1.1vw;
-		padding-top: 0.7vw;
+		font-size: 11px;
+		padding-top: 7px;
 		text-align: center;
 		width: 100%;
 	}
