@@ -477,29 +477,14 @@
 		margin: auto;
 	}
 
-	#samojako1 {
-		background: url('../img/bela-peciva/bela1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#samojako2 {
+	#main-content #samojako2 {
 		background: url('../img/bela-peciva/bela2.png') no-repeat;
-		background-size: 100% 230vw;
+		background-size: 100% 2300px;
 		background-position: center;
-		width: 100%;
-		height: 230vw;
+		width: 1000px;
+		height: 2300px;
 		position: relative;
-	}
-	#samojako3 {
-		background: url('../img/bela-peciva/bela3.png') no-repeat;
-		background-size: 130% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 20vw;
+		margin: auto;
 	}
 
 	/*#docs a h2,*/ #docs1 a h2 {
@@ -1144,49 +1129,40 @@
 
 	/* bela peciva */
 
-	#bp1lines, #hl1lines {
-		position: absolute;
-		top: 19vw;
-		left: 27%;
-		height: 12vw;
-		width: 20%;
-		border-left: 0.1vw solid white;
-		border-top: 0.1vw solid white;
-	}
 	#bp2lines1 {
 		position: absolute;
 		border-left: 0.1vw solid white;
-		top: 35vw;
+		top: 350px;
 		left: 27%;
-		height: 10vw;
+		height: 100px;
 	}
 	#bp2lines2 {
 		position: absolute;
 		border-left: 0.1vw solid white;
-		top: 67vw;
+		top: 670px;
 		left: 27%;
-		height: 10vw;
+		height: 100px;
 	}
 	#bp2lines3 {
 		position: absolute;
 		border-left: 0.1vw solid white;
-		top: 102.5vw;
+		top: 1025px;
 		left: 27%;
-		height: 10vw;
+		height: 100px;
 	}
 	#bp2lines4 {
 		position: absolute;
 		border-left: 0.1vw solid white;
-		top: 140vw;
+		top: 1400px;
 		left: 27%;
-		height: 10vw;
+		height: 100px;
 	}
 	#bp2lines5 {
 		position: absolute;
 		border-left: 0.1vw solid white;
-		top: 175vw;
+		top: 1750px;
 		left: 27%;
-		height: 10vw;
+		height: 100px;
 	}
 
 	/* hleb */
@@ -1821,48 +1797,40 @@
 
 	/* bela peciva */
 
-	#bp1t1, #hl1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 29vw;
-		top: 12.5vw;
-	}
 	#bp2t1 {
 		position: absolute;
-		width: 30vw;
+		width: 300px;
 		color: #707070;
-		font-size: 2vw;
-		line-height: 2.7vw;
+		font-size: 20px;
+		line-height: 27px;
 		border-bottom: 0.1vw solid #070707;
 		left: 45%;
 	}
 	#bp2t1, #bp2t2, #bp2t3, #bp2t4, #bp2t5, #bp2t6 {
 		position: absolute;
-		width: 30vw;
+		width: 300px;
 		color: #998675;
-		font-size: 3.3vw;
-		line-height: 4vw;
+		font-size: 33px;
+		line-height: 40px;
 		border-bottom: 0.1vw solid #998675;
 		left: 50%;
-		padding-left: 1vw;
-		top: 20vw;
+		padding-left: 10px;
+		top: 200px;
 	}
 	#bp2t2 {
-		top: 55vw;
+		top: 550px;
 	}
 	#bp2t3 {
-		top: 90vw;
+		top: 900px;
 	}
 	#bp2t4 {
-		top: 125vw;
+		top: 1250px;
 	}
 	#bp2t5 {
-		top: 160vw;
+		top: 1600px;
 	}
 	#bp2t6 {
-		top: 195vw;
+		top: 1950px;
 	}
 
 	/* hleb */
