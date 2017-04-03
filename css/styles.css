@@ -659,6 +659,20 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-position: center;
 	width: 100%;
 	position: relative;
+}
+#history2-2 {
+	background: url('../img/istorijat/history2.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	width: 100%;
+	position: relative;
+}
+#history2-3 {
+	background: url('../img/istorijat/history2.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	width: 100%;
+	position: relative;
 	padding-bottom: 5vw;
 }
 #history3 {
@@ -1504,20 +1518,21 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 #h1lines {
 	position: absolute;
-	top: -3vw;
-	left: 7vw;
-	height: 8vw;
-	width: 34.7vw;
+	top: 0;
+	right: 50%;
+	height: 5vw;
+	width: 42.2vw;
 	border-right: 0.1vw solid white;
 	border-bottom: 0.1vw solid white;
 }
 #h2lines {
 	position: absolute;
-	top: -3vw;
-	left: 41.7vw;
+	top: 26vw;
+	left: 50%;
 	height: 8vw;
 	width: 30vw;
-	border-top: 0.1vw solid white;	
+	border-top: 0.1vw solid white;
+	border-left: 0.1vw solid white;
 }
 
 /* proizvodi */
