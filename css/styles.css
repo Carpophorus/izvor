@@ -1575,12 +1575,11 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #d1lines {
 	position: absolute;
 	top: 23vw;
-	left: 35vw;
+	left: 50%;
 	height: 12vw;
 	width: 30vw;
 	border-left: 0.1vw solid white;
 	border-top: 0.1vw solid white;
-	z-index: 30;
 }
 #pdf-dots {
 	position: absolute;
@@ -2211,7 +2210,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #d1text {
 	position: absolute;
 	top: 15vw;
-	left: 43%;
+	left: 53%;
 }
 #d1t1 {
 	position: absolute;
@@ -2269,13 +2268,17 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	height: 6.6vw;
 	width: 25.5vw;
 	top: 4vw;
-	left: 18vw;
+	right: 40.6%;
 }
 #dct1 {
 	position: absolute;
 	color: white;
 	font-size: 4vw;
 	left: 1vw;
+	top: -4vw;
+	border-right: 0.1vw solid white;
+	padding-top: 4vw;
+	padding-bottom: 0.8vw;
 }
 #dct2 {
 	position: absolute;
@@ -2832,6 +2835,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	#lace {
 		margin-top: 1vw;
 		z-index: 3;
+	}
+
+	#dct1 {
+		padding-right: 1px;
 	}
 
 	footer {

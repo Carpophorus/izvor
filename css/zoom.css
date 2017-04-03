@@ -510,29 +510,14 @@
 		padding-top: 18px;
 	}
 
-	#docs1 {
-		background: url('../img/dokumenti/docs1.jpg') no-repeat;
-		background-size: 100% auto;
-		background-position: bottom;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#docs2 {
+	#main-content #docs2 {
 		background: url('../img/dokumenti/docs2.png') no-repeat;
 		background-size: 100% auto;
 		background-position: center;
-		width: 100%;
-		height: 70vw;
+		width: 1000px;
+		height: 700px;
 		position: relative;
-	}
-	#docs3 {
-		background: url('../img/dokumenti/docs3.jpg') no-repeat;
-		background-size: 110% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 20vw;
+		margin: auto;
 	}
 
 	#hleb1 {
@@ -1155,31 +1140,21 @@
 
 	/* dokumenti */
 
-	#d1lines {
-		position: absolute;
-		top: 23vw;
-		left: 35vw;
-		height: 12vw;
-		width: 30vw;
-		border-left: 0.1vw solid white;
-		border-top: 0.1vw solid white;
-		z-index: 30;
-	}
 	#pdf-dots {
 		position: absolute;
-		left: 9vw;
-		height: 10vw;
+		left: 90px;
+		height: 100px;
 	}
 	#pdf-circle {
 		position: absolute;
-		top: 10.5vw;
-		left: 8.5vw;
+		top: 105px;
+		left: 85px;
 	}
 	#pdf-image {
 		background: url('../img/dokumenti/pdf.svg') no-repeat;
 		background-size: 100% auto;
-		height: 8vw;
-		width: 8vw;
+		height: 80px;
+		width: 80px;
 		position: absolute;
 	}
 
@@ -1787,11 +1762,6 @@
 
 	/* dokumenti */
 
-	#d1text {
-		position: absolute;
-		top: 15vw;
-		left: 43%;
-	}
 	#d1t1 {
 		position: absolute;
 		font-size: 5vw;
@@ -1809,35 +1779,35 @@
 	}
 	#pdf-container-1 {
 		position: absolute;
-		top: 20vw;
+		top: 200px;
 		left: 31%;
-		width: 40vw;
-		height: 13.5vw;
+		width: 400px;
+		height: 135px;
 	}
 	#pdf-container-2 {
 		position: absolute;
-		top: 40vw;
+		top: 400px;
 		left: 31%;
-		width: 40vw;
-		height: 13.5vw;
+		width: 400px;
+		height: 135px;
 	}
 	#pdf-t1 {
 		position: absolute;
-		font-size: 1.8vw;
-		line-height: 2.3vw;
+		font-size: 18px;
+		line-height: 23px;
 		color: white;
-		top: 9vw;
+		top: 90px;
 		left: 0;
-		width: 7vw;
+		width: 70px;
 	}
 	#pdf-t2 {
 		position: absolute;
-		font-size: 1.8vw;
-		line-height: 2.3vw;
+		font-size: 18px;
+		line-height: 23px;
 		color: white;
 		top: 0;
-		left: 11vw;
-		width: 29vw;
+		left: 110px;
+		width: 290px;
 	}
 	#pdf-t2 span {
 		font-weight: 700;
@@ -1845,29 +1815,34 @@
 	#docs2 #docs-container {
 		position: absolute;
 		border-bottom: 0.1vw solid white;
-		height: 6.6vw;
-		width: 25.5vw;
-		top: 4vw;
-		left: 18vw;
+		height: 66px;
+		width: 255px;
+		top: 40px;
+		right: 40.6%;
+		z-index: 31;
 	}
 	#dct1 {
 		position: absolute;
 		color: white;
-		font-size: 4vw;
-		left: 1vw;
+		font-size: 40px;
+		left: 10px;
+		top: -40px;
+		border-right: 0.1vw solid white;
+		padding-top: 40px;
+		padding-bottom: 8px;
 	}
 	#dct2 {
 		position: absolute;
 		color: #754c24;
-		font-size: 2.2vw;
-		top: 2.9vw;
-		left: 7vw;
+		font-size: 22px;
+		top: 29px;
+		left: 70px;
 	}
 	#dct3 {
 		position: absolute;
 		color: white;
-		font-size: 1.5vw;
-		top: 4.8vw;
+		font-size: 15px;
+		top: 48px;
 	}
 
 	/* bela peciva */
