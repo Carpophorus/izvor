@@ -516,160 +516,111 @@
 		margin: auto;
 	}
 
-	#nika1 {
-		background: url('../img/nika/nika1.png') no-repeat;
-		background-size: 100% 38vw;
-		background-position: center;
-		width: 100%;
-		height: 38vw;
-		position: relative;
-	}
-	#nika2 {
+	#main-content #nika2 {
 		background: url('../img/nika/nika2.png') no-repeat;
-		background-size: 100% 172vw;
+		background-size: 100% 1720px;
 		background-position: center;
-		width: 100%;
-		height: 103vw;
+		width: 1000px;
+		height: 1030px;
 		position: relative;
-	}
-	#nika3 {
-		background: url('../img/nika/nika3.png') no-repeat;
-		background-size: 130% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 27vw;
-	}
-	#nika4 {
-		background: url('../img/nika/nika large.png') no-repeat;
-		background-size: 24vw auto;
-		background-position: center;
-		position: absolute;
-		top: 10vw;
-		left: 25%;
-		width: 20vw;
-		height: 20vw;
-	}
-	#nika5 {
-		background: url('../img/proizvedeno u srbiji.png') no-repeat;
-		background-size: 7vw auto;
-		background-position: center;
-		position: absolute;
-		top: 32vw;
-		left: 72%;
-		width: 7vw;
-		height: 4.7vw;
+		margin: auto;
 	}
 	#nika6 {
 		background: url('../img/nika/cinija_krem.png') no-repeat;
-		background-size: 35vw auto;
+		background-size: 350px auto;
 		background-position: center;
 		float: left;
-		margin-top: 17vw;
+		margin-top: 170px;
 		margin-left: 14%;
-		width: 45vw;
-		height: 20vw;
+		width: 450px;
+		height: 200px;
 	}
 	#nika7 {
 		background: url('../img/nika/krem.png') no-repeat;
-		background-size: 38.95vw auto;
+		background-size: 389.5px auto;
 		background-position: center;
 		position: absolute;
-		margin-top: 17vw;
+		margin-top: 170px;
 		margin-left: 43.4%;
-		width: 38.95vw;
-		height: 20vw;
+		width: 389.5px;
+		height: 200px;
 	}
 	#nika8 {
 		background: url('../img/nika/cinija_kajsija.png') no-repeat;
-		background-size: 30vw auto;
+		background-size: 300px auto;
 		background-position: center;
 		float: left;
-		margin-top: 7vw;
+		margin-top: 70px;
 		margin-left: 12%;
-		width: 45vw;
-		height: 20vw;
+		width: 450px;
+		height: 200px;
 	}
 	#nika9 {
 		background: url('../img/nika/kajsija.png') no-repeat;
-		background-size: 35vw auto;
+		background-size: 350px auto;
 		background-position: center;
 		position: absolute;
-		margin-top: 44vw;
+		margin-top: 440px;
 		margin-left: 47%;
-		width: 35vw;
-		height: 20vw;
+		width: 350px;
+		height: 200px;
 	}
 	#nika10 {
 		background: url('../img/nika/cinija_vanila.png') no-repeat;
-		background-size: 35vw auto;
+		background-size: 350px auto;
 		background-position: center;
 		float: left;
-		margin-top: 7vw;
+		margin-top: 70px;
 		margin-left: 16%;
-		width: 45vw;
-		height: 20vw;
+		width: 450px;
+		height: 200px;
 	}
 	#nika11 {
 		background: url('../img/nika/vanila.png') no-repeat;
-		background-size: 35vw auto;
+		background-size: 350px auto;
 		background-position: center;
 		position: absolute;
-		margin-top: 72vw;
+		margin-top: 720px;
 		margin-left: 47%;
-		width: 35vw;
-		height: 20vw;
+		width: 350px;
+		height: 200px;
 	}
 	#nika12, #nika13, #nika14 {
 		background: url('../img/nika/nika large.png') no-repeat;
-		background-size: 10vw auto;
+		background-size: 100px auto;
 		background-position: center;
 		position: absolute;
 		margin-left: 25%;
-		width: 10vw;
-		height: 10vw;
+		width: 100px;
+		height: 100px;
 	}
 	#nika12 {
-		margin-top: 31vw;
+		margin-top: 310px;
 	}
 	#nika13 {
-		margin-top: 57.6vw;
+		margin-top: 576px;
 	}
 	#nika14 {
-		margin-top: 85.7vw;
+		margin-top: 857px;
 	}
 
-	#pite1 {
-		background: url('../img/pite/pite1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#pite2 {
+	#main-content #pite2 {
 		background: url('../img/pite/pite2.png') no-repeat;
-		background-size: 100% 172vw;
+		background-size: 100% 1720px;
 		background-position: center;
-		width: 100%;
-		height: 172vw;
+		width: 1000px;
+		height: 1720px;
 		position: relative;
+		margin: auto;
 	}
-	#pite22 {
+	#main-content #pite22 {
 		background: url('../img/pite/pite22.png') no-repeat;
-		background-size: 100% 172vw;
+		background-size: 100% 1720px;
 		background-position: center;
-		width: 100%;
-		height: 172vw;
+		width: 1000px;
+		height: 1720px;
 		position: relative;
-	}
-	#pite3 {
-		background: url('../img/pite/pite3.png') no-repeat;
-		background-size: 130% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 20vw;
+		margin: auto;
 	}
 
 	#main-content #pogace2 {
@@ -682,120 +633,62 @@
 		margin: auto;
 	}
 
-	#half1 {
-		background: url('../img/polupeceni-program/half1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#half2 {
+	#main-content #half2 {
 		background: url('../img/polupeceni-program/half2.png') no-repeat;
-		background-size: 100% 172vw;
+		background-size: 100% 1720px;
 		background-position: center;
-		width: 100%;
-		height: 172vw;
+		width: 1000px;
+		height: 1720px;
 		position: relative;
-	}
-	#half3 {
-		background: url('../img/polupeceni-program/half3.png') no-repeat;
-		background-size: 100% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 30vw;
+		margin: auto;
 	}
 
-	#salty1 {
-		background: url('../img/slana-peciva/salty1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#salty2 {
+	#main-content #salty2 {
 		background: url('../img/slana-peciva/salty2.png') no-repeat;
-		background-size: 100% 169vw;
+		background-size: 100% 1690px;
 		background-position: center;
-		width: 100%;
-		height: 169vw;
+		width: 1000px;
+		height: 1690px;
 		position: relative;
+		margin: auto;
 	}
-	#salty22 {
+	#main-content #salty22 {
 		background: url('../img/slana-peciva/salty22.png') no-repeat;
-		background-size: 100% 193vw;
+		background-size: 100% 1930px;
 		background-position: center;
-		width: 100%;
-		height: 193vw;
+		width: 1000px;
+		height: 1930px;
 		position: relative;
-	}
-	#salty3 {
-		background: url('../img/slana-peciva/salty3.png') no-repeat;
-		background-size: 140% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 22vw;
+		margin: auto;
 	}
 
-	#sara1 {
-		background: url('../img/slatka-peciva/sara1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#sara2 {
+	#main-content #sara2 {
 		background: url('../img/slatka-peciva/sara2.png') no-repeat;
-		background-size: 100% 244vw;
+		background-size: 100% 2440px;
 		background-position: center;
-		width: 100%;
-		height: 244vw;
+		width: 1000px;
+		height: 2440px;
 		position: relative;
-	}
-	#sara3 {
-		background: url('../img/slatka-peciva/sara3.png') no-repeat;
-		background-size: 120% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 20vw;
+		margin: auto;
 	}
 
-	#freeze1 {
-		background: url('../img/smrznuti-program/freeze1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#freeze2 {
+	#main-content #freeze2 {
 		background: url('../img/smrznuti-program/freeze2.png') no-repeat;
-		background-size: 100% 244vw;
+		background-size: 100% 2440px;
 		background-position: center;
-		width: 100%;
-		height: 244vw;
+		width: 1000px;
+		height: 2440px;
 		position: relative;
+		margin: auto;
 	}
-	#freeze22 {
+	#main-content #freeze22 {
 		background: url('../img/smrznuti-program/freeze22.png') no-repeat;
-		background-size: 100% 234vw;
+		background-size: 100% 2340px;
 		background-position: center;
-		width: 100%;
-		height: 234vw;
+		width: 1000px;
+		height: 2340px;
 		position: relative;
-	}
-	#freeze3 {
-		background: url('../img/smrznuti-program/freeze3.png') no-repeat;
-		background-size: 130% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 20vw;
+		margin: auto;
 	}
 
 	#main-content #products2 {
@@ -1199,18 +1092,6 @@
 		border-top: 0.1vw solid white;
 	}
 
-	/* slatka peciva */
-
-	#sp1lines {
-		position: absolute;
-		top: 19vw;
-		left: 20%;
-		height: 12vw;
-		width: 30%;
-		border-top: 0.1vw solid white;
-		border-left: 0.1vw solid white;
-	}
-
 	/* pogače */
 
 	#pg2l1, #pg2l2, #pg2l3, #pg2l4, #pg2l5 {
@@ -1246,88 +1127,65 @@
 	#nk2l1 {
 		position: absolute;
 		right: 24%;
-		height: 10vw;
-		top: 0.5vw;
+		height: 100px;
+		top: 5px;
 	}
 	#nk2l2 {
 		position: absolute;
 		right: 24%;
-		height: 10.2vw;
+		height: 102px;
 		width: 40%;
-		top: 11.6vw;
+		top: 116px;
 		border-top: 0.1vw solid white;
 		border-left: 0.1vw solid white;
 	}
 	#nk2c1 {
 		position: absolute;
 		right: 23.5%;
-		top: 10.6vw;
+		top: 106px;
 		z-index: 30;
 	}
 	#nk2l3 {
 		position: absolute;
 		right: 63.5%;
-		height: 4vw;
-		top: 38vw;
+		height: 40px;
+		top: 380px;
 	}
 	#nk2l4 {
 		position: absolute;
 		right: 24%;
-		height: 3vw;
+		height: 30px;
 		width: 40%;
-		top: 43.4vw;
+		top: 434px;
 		border-top: 0.1vw solid white;
 		border-right: 0.1vw solid white;
 	}
 	#nk2c2 {
 		position: absolute;
 		right: 63%;
-		top: 42.4vw;
+		top: 424px;
 		z-index: 30;
 	}
 	#nk2l5 {
 		position: absolute;
 		right: 24%;
-		height: 4vw;
-		top: 65vw;
+		height: 40px;
+		top: 650px;
 	}
 	#nk2l6 {
 		position: absolute;
 		right: 24%;
-		height: 5vw;
+		height: 50px;
 		width: 40%;
-		top: 70.4vw;
+		top: 704px;
 		border-top: 0.1vw solid white;
 		border-left: 0.1vw solid white;
 	}
 	#nk2c3 {
 		position: absolute;
 		right: 23.5%;
-		top: 69.4vw;
+		top: 694px;
 		z-index: 30;
-	}
-
-	/* slana peciva */
-
-	#slp1lines {
-		position: absolute;
-		top: 19vw;
-		left: 25%;
-		height: 12vw;
-		width: 49%;
-		border-top: 0.1vw solid white;
-		border-left: 0.1vw solid white;
-	}
-
-	/* pite */
-
-	#pt1lines {
-		position: absolute;
-		top: 19vw;
-		left: 17%;
-		height: 12vw;
-		width: 18.6%;
-		border-top: 0.1vw solid white;
 	}
 
 	/* smrznuti program */
@@ -1869,106 +1727,90 @@
 
 	/* polupeceni program */
 
-	#pp1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 22vw;
-		top: 12.5vw;
-	}
 	#pp2tc1, #pp2tc3, #pp2tc5 {
 		position: absolute;
-		top: 18vw;
+		top: 180px;
 		left: 50%;
 		width: 40%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#pp2tc3 {
-		top: 66vw;
+		top: 660px;
 	}
 	#pp2tc5 {
-		top: 114vw;
+		top: 1140px;
 	}
 	#pp2tct1 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		left: 9vw;
+		line-height: 30px;
+		font-size: 21px;
+		left: 90px;
 	}
 	#pp2tct2 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 	}
 	#pp2tc2, #pp2tc4, #pp2tc6 {
 		position: absolute;
-		top: 41vw;
+		top: 410px;
 		right: 50%;
 		width: 40%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#pp2tc4 {
-		top: 90vw;
+		top: 900px;
 	}
 	#pp2tc6 {
-		top: 138vw;
+		top: 1380px;
 	}
 	#pp2tct3 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		right: 7vw;
+		line-height: 30px;
+		font-size: 21px;
+		right: 70px;
 		text-align: right;
 	}
 	#pp2tct4 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 		text-align: right;
 	}
 
 	/* slatka peciva */
 
-	#sp1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 22%;
-		top: 12.5vw;
-	}
 	.sp2t {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
+		line-height: 30px;
+		font-size: 21px;
 		left: 50%;
 		width: 40%;
 		padding-left: 10%;
 		border-bottom: 0.2vw solid white;
 	}
 	#sp2t1 {
-		top: 23vw;
+		top: 230px;
 	}
 	#sp2t2 {
-		top: 59vw;
+		top: 590px;
 	}
 	#sp2t3 {
-		top: 102vw;
+		top: 1020px;
 	}
 	#sp2t4 {
-		top: 138vw;
+		top: 1380px;
 	}
 	#sp2t5 {
-		top: 174vw;
+		top: 1740px;
 	}
 	#sp2t6 {
-		top: 210vw;
+		top: 2100px;
 	}
 
 	/* pogače */
@@ -2002,291 +1844,256 @@
 
 	/* nika */
 
-	#nk1t1 {
-		position: absolute;
-		font-size: 4.5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 18%;
-		top: 23vw;
-		border-top: 0.1vw solid white;
-		width: 32%;
-		padding-left: 1vw;
-	}
 	#nika-container-3 {
 		position: absolute;
-		top: -2.3vw;
+		top: -23px;
 		left: 46%;
 	}
 	#nk2tc1, #nk2tc2, #nk2tc3 {
 		position: absolute;
-		top: 33vw;
+		top: 330px;
 		left: 33%;
 		width: 20%;
-		height: 2.5vw;
+		height: 25px;
 		border-bottom: 0.1vw solid white;
 	}
 	#nk2tc2 {
-		top: 60vw;
+		top: 600px;
 	}
 	#nk2tc3 {
-		top: 88vw;
+		top: 880px;
 	}
 	#nk2tct1 {
 		position: absolute;
 		color: #998675;
-		line-height: 2.5vw;
-		font-size: 1.7vw;
-		left: 1vw;
+		line-height: 25px;
+		font-size: 17px;
+		left: 10px;
 	}
 	#nk2tct2 {
 		color: #998675;
-		font-size: 1.2vw;
-		line-height: 1.9vw;
+		font-size: 12px;
+		line-height: 19px;
 	}
 
 	/* slana peciva*/
 
-	#slp1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 55%;
-		top: 12.5vw;
-	}
 	.slp2t {
 		position: absolute;
 		color: #998675;
-		line-height: 3.5vw;
-		height: 3.5vw;
-		font-size: 3vw;
+		line-height: 35px;
+		height: 35px;
+		font-size: 30px;
 		width: 30%;
 		padding-left: 3%;
 		padding-right: 3%;
 		border-bottom: 0.1vw solid white;
 	}
 	#slp2t1 {
-		top: 21vw;
+		top: 210px;
 		left: 40%;
 	}
 	#slp2t2 {
-		top: 51vw;
+		top: 510px;
 		right: 40%;
 		text-align: right;
 	}
 	#slp2t3 {
-		top: 80vw;
+		top: 800px;
 		left: 50%;
 	}
 	#slp2t4 {
-		top: 106vw;
+		top: 1060px;
 		right: 40%;
 		text-align: right;
 	}
 	#slp2t5 {
-		top: 136vw;
+		top: 1360px;
 		left: 50%;
 	}
 	#slp22t1 {
-		top: 21vw;
+		top: 210px;
 		left: 45%;
 	}
 	#slp22t2 {
-		top: 42vw;
+		top: 420px;
 		right: 40%;
 		text-align: right;
 	}
 	#slp22t22 {
-		top: 48.5vw;
-		font-size: 1.8vw;
+		top: 485px;
+		font-size: 18px;
 		right: 40%;
 		text-align: right;
 		border-bottom: 0;
 	}
 	#slp22t3 {
-		top: 77vw;
+		top: 770px;
 		left: 45%;
 	}
 	#slp22t4 {
-		top: 104vw;
+		top: 1040px;
 		right: 45%;
 		text-align: right;
 	}
 	#slp22t5 {
-		top: 134vw;
+		top: 1340px;
 		left: 53%;
 	}
 	#slp22t6 {
-		top: 156vw;
+		top: 1560px;
 		right: 45%;
 		text-align: right;
 	}
 
 	/* pite */
 
-	#pt1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 23%;
-		top: 12.5vw;
-	}
 	#pt2tc1, #pt2tc3, #pt22tc3 {
 		position: absolute;
-		top: 18vw;
+		top: 180px;
 		left: 45%;
 		width: 30%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#pt2tc3 {
-		top: 90vw;
+		top: 900px;
 	}
 	#pt22tc3 {
-		top: 87vw;
+		top: 870px;
 	}
 	#pt2tct1 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		left: 9vw;
+		line-height: 30px;
+		font-size: 21px;
+		left: 90px;
 	}
 	#pt2tct2 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 	}
 	#pt2tc2, #pt2tc4 {
 		position: absolute;
-		top: 60vw;
+		top: 600px;
 		right: 60%;
 		width: 30%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#pt2tc4 {
-		top: 131vw;
+		top: 1310px;
 	}
 	#pt2tct3 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		right: 7vw;
+		line-height: 30px;
+		font-size: 21px;
+		right: 70px;
 		text-align: right;
 	}
 	#pt2tct4 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 		text-align: right;
 	}
 
 	/* smrznuti program */
 
-	#fr1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 60%;
-		top: 12.5vw;
-	}
 	#fr2tc1, #fr2tc2, #fr2tc4, #fr2tc6 {
 		position: absolute;
-		top: 13vw;
+		top: 130px;
 		left: 51%;
 		width: 35%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#fr2tc2 {
-		top: 75vw;
+		top: 750px;
 		left: 52%;
 	}
 	#fr2tc4 {
-		top: 142vw;
+		top: 1420px;
 		left: 60%;
 	}
 	#fr2tc6 {
-		top: 215vw;
+		top: 2150px;
 		left: 53%;
 	}
 	#fr2tct1 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		left: 9vw;
+		line-height: 30px;
+		font-size: 21px;
+		left: 90px;
 	}
 	#fr2tct2 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 	}
 	#fr2tc3, #fr2tc5 {
 		position: absolute;
 		width: 30%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#fr2tc3 {
-		top: 100vw;
+		top: 1000px;
 		right: 40%;
 	}
 	#fr2tc5 {
-		top: 171vw;
+		top: 1710px;
 		right: 50%;
 	}
 	#fr2tct3 {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		font-size: 2.1vw;
-		right: 7vw;
+		line-height: 30px;
+		font-size: 21px;
+		right: 70px;
 		text-align: right;
 	}
 	#fr2tct4 {
 		color: #998675;
-		font-size: 1.5vw;
-		line-height: 1.9vw;
+		font-size: 15px;
+		line-height: 19px;
 		text-align: right;
 	}
 	#fr22tc1, #fr22tc3, #fr22tc5 {
 		position: absolute;
-		top: 13vw;
+		top: 130px;
 		left: 51%;
 		width: 35%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#fr22tc3 {
-		top: 95vw;
+		top: 950px;
 		left: 50%;
 	}
 	#fr22tc5 {
-		top: 170vw;
+		top: 1700px;
 		left: 50%;
 	}
 	#fr22tc2, #fr22tc4, #fr22tc6 {
 		position: absolute;
 		width: 36%;
-		height: 3vw;
+		height: 30px;
 		border-bottom: 0.2vw solid white;
 	}
 	#fr22tc2 {
-		top: 60vw;
+		top: 600px;
 		right: 50%;
 	}
 	#fr22tc4 {
-		top: 130vw;
+		top: 1300px;
 		right: 45%;
 	}
 	#fr22tc6 {
-		top: 198vw;
+		top: 1980px;
 		right: 55%;
 	}
 
