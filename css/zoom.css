@@ -687,21 +687,14 @@
 		height: 20vw;
 	}
 
-	#pogace1 {
-		background: url('../img/pogace/pogace1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#pogace2 {
+	#main-content #pogace2 {
 		background: url('../img/pogace/pogace2.png') no-repeat;
-		background-size: 100% 183vw;
+		background-size: 100% 1830px;
 		background-position: center;
-		width: 100%;
-		height: 183vw;
+		width: 1000px;
+		height: 1830px;
 		position: relative;
+		margin: auto;
 	}
 
 	#half1 {
@@ -1243,14 +1236,7 @@
 	}
 
 	/* pogače */
-	#pg1lines {
-		position: absolute;
-		top: 19vw;
-		left: 55%;
-		height: 12vw;
-		width: 35%;
-		border-top: 0.1vw solid white;
-	}
+
 	#pg2l1, #pg2l2, #pg2l3, #pg2l4, #pg2l5 {
 		position: absolute;
 		left: 10%;
@@ -1275,7 +1261,7 @@
 	#pg2c {
 		position: absolute;
 		top: 65%;
-		left: -1vw;
+		left: -10px;
 		z-index: 30;
 	}
 
@@ -2019,39 +2005,31 @@
 
 	/* pogače */
 
-	#pg1t1 {
-		position: absolute;
-		font-size: 5vw;
-		color: white;
-		line-height: 6.5vw;
-		left: 70%;
-		top: 12.5vw;
-	}
 	.pg2t {
 		position: absolute;
 		color: #998675;
-		line-height: 3vw;
-		height: 3vw;
-		font-size: 2.5vw;
+		line-height: 30px;
+		height: 30px;
+		font-size: 25px;
 		left: 50%;
 		width: 30%;
 		padding-left: 7%;
 		border-bottom: 0.2vw solid white;
 	}
 	#pg2t1 {
-		top: 18vw;
+		top: 180px;
 	}
 	#pg2t2 {
-		top: 53vw;
+		top: 530px;
 	}
 	#pg2t3 {
-		top: 87vw;
+		top: 870px;
 	}
 	#pg2t4 {
-		top: 122vw;
+		top: 1220px;
 	}
 	#pg2t5 {
-		top: 158vw;
+		top: 1580px;
 	}
 
 	/* nika */
