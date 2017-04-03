@@ -52,11 +52,12 @@ $(document).ready(function() {
         var windowpos = $(window).scrollTop();
         var anchor = ($("#products2").position() || {"anchor": NaN}).top;
         var width = $(window).width();
+        if (width > 1000) width = 1000;
         if (windowpos >= anchor) {
             s.css({
                 'position': 'absolute',
                 'margin-left': '15%',
-                'padding-top': '13vw',
+                'padding-top': 13*width/100,
                 'width': '70%',
                 'visibility': 'visible'
             });
