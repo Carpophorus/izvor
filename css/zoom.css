@@ -451,29 +451,14 @@
 		position: relative;
 	}*/
 
-	#new1 {
-		background: url('../img/sta-je-novo/new1.png') no-repeat;
-		background-size: 100% 29vw;
-		background-position: center;
-		width: 100%;
-		height: 29vw;
-		position: relative;
-	}
-	#new2 {
+	#main-content #new2 {
 		background: url('../img/sta-je-novo/new2.png') no-repeat;
-		background-size: 100% 174vw;
+		background-size: 100% auto;
 		background-position: center;
-		width: 100%;
-		height: 174vw;
+		width: 1000px;
+		height: 1740px;
 		position: relative;
-	}
-	#new3 {
-		background: url('../img/sta-je-novo/new3.png') no-repeat;
-		background-size: 170% auto;
-		background-position: bottom;
-		background-attachment: fixed;
-		width: 100%;
-		height: 40vw;
+		margin: auto;
 	}
 
 	#samojako1 {
@@ -1129,13 +1114,17 @@
 		z-index: 30;
 	}
 	#n2-circle {
-		top: 97vw;
-		left: 49.5%;
+		top: 970px;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 	#n2-dots {
-		top: 86.7vw;
-		height: 10vw;
-		left: 50%;
+		top: 867px;
+		height: 100px;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 
 	/* dokumenti */
@@ -1662,52 +1651,52 @@
 	#new2 #nika-container {
 		position: absolute;
 		border-bottom: 0.1vw solid white;
-		height: 13vw;
-		width: 25vw;
-		top: 4vw;
-		left: 13vw;
+		height: 130px;
+		width: 250px;
+		top: 40px;
+		left: 130px;
 	}
 	#nct1 {
 		position: absolute;
 		color: white;
-		font-size: 4vw;
-		left: 1vw;
+		font-size: 40px;
+		left: 10px;
 	}
 	#nct2 {
 		position: absolute;
 		color: #754c24;
-		font-size: 2.4vw;
-		top: 2.9vw;
-		left: 6vw;
+		font-size: 24px;
+		top: 29px;
+		left: 60px;
 	}
 	#nct3 {
 		position: absolute;
 		color: #754c24;
-		font-size: 2.4vw;
-		top: 5.2vw;
+		font-size: 24px;
+		top: 52px;
 	}
 	#nct4 {
 		position: absolute;
 		color: white;
-		font-size: 2.4vw;
-		top: 7.5vw;
-		left: 8vw;
+		font-size: 24px;
+		top: 75px;
+		left: 80px;
 	}
 	#nct5 {
 		position: absolute;
 		color: #754c24;
-		font-size: 3.2vw;
-		top: 10vw;
-		left: 4vw;
+		font-size: 32px;
+		top: 100px;
+		left: 40px;
 	}
 	#n2t1 {
-		font-size: 1.8vw;
-		line-height: 2.3vw;
+		font-size: 18px;
+		line-height: 23px;
 		color: white;
 		position: absolute;
-		top: 25vw;
-		left: 13vw;
-		width: 40vw;
+		top: 250px;
+		left: 130px;
+		width: 400px;
 	}
 	#n2t1 span {
 		font-weight: 700;
@@ -1715,44 +1704,44 @@
 	#new2 #nika-container-2 {
 		position: absolute;
 		border-bottom: 0.1vw solid white;
-		height: 10vw;
-		width: 35vw;
-		top: 102vw;
-		left: 33vw;
+		height: 100px;
+		width: 350px;
+		top: 1020px;
+		left: 330px;
 	}
 	#nct1-2 {
 		position: absolute;
 		color: white;
-		font-size: 4vw;
-		left: 11vw;
+		font-size: 40px;
+		left: 110px;
 	}
 	#nct2-2 {
 		position: absolute;
 		color: #754c24;
-		font-size: 2.4vw;
-		top: 2.9vw;
-		left: 16vw;
+		font-size: 24px;
+		top: 29px;
+		left: 160px;
 	}
 	#nct3-2 {
 		position: absolute;
 		color: #754c24;
-		font-size: 2.4vw;
-		top: 5.2vw;
-		left: 10vw;
+		font-size: 24px;
+		top: 52px;
+		left: 100px;
 	}
 	#nct4-2 {
 		position: absolute;
 		color: white;
-		font-size: 2.4vw;
-		top: 7.5vw;
-		left: 18vw;
+		font-size: 24px;
+		top: 75px;
+		left: 180px;
 	}
 	#n2t2 {
-		font-size: 1.8vw;
-		line-height: 2.3vw;
+		font-size: 18px;
+		line-height: 23px;
 		position: absolute;
 		color: #707070;
-		top: 115vw;
+		top: 1150px;
 		left: 40%;
 		width: 50%;
 	}
