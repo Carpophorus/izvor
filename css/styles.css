@@ -2861,14 +2861,72 @@ a:link, a:visited, a:hover, a:focus, a:active {
 		padding-right: 1px;
 	}
 
+	/* FOOTER */
+
+	.panel-footer {
+		padding: 0.6vw;
+		background-color: white;
+		border: none;
+	}
+
 	footer {
-		height: 3vw;
+		height: 10vh;
 	}
 
 	footer div {
-		font-size: 2vw;
-		line-height: 2vw;
+		font-size: 1vh;
+		line-height: 2vh;
+		text-align: center;
+		color: #999999;
+		background-color: white;
+		/* Josefin Sans */
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
 	}
+
+	#social-footer {
+		width: 100%;
+		height: 10vh;
+		background-color: #E6E6E6;
+	}
+	#sfctext {
+		width: 16vh;
+		height: 2vh;
+		margin: auto;
+		text-align: center;
+		padding-top: 2vh;
+		padding-bottom: 1vh;
+		font-size: 1.5vh;
+		color: darkred;
+		/* Josefin Sans */
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+	}
+	#sfc {
+		width: 12vh;
+		height: 7vh;
+		border-bottom: 0.07vw solid white;
+		margin: auto;
+	}
+	#fbf {
+		background: url('../img/fb.svg') no-repeat;
+		background-size: 4vh auto;
+		background-position: center;
+		width: 5vh;
+		height: 6vh;
+		float: left;
+		margin-left: 1vh;
+	}
+	#igf {
+		background: url('../img/ig.svg') no-repeat;
+		background-size: 4vh auto;
+		background-position: center;
+		width: 5vh;
+		height: 6vh;
+		float: left;
+	}
+
+	/* END FOOTER */
 
 	h2 {
 		font-family: serif;
