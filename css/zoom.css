@@ -1201,50 +1201,6 @@
 
 	/* END ELEMENTS*/
 
-	/* FONTS */
-
-	.josefin {
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 400;
-	}
-
-	.josefin-bold {
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 700;
-	}
-
-	.josefin-light {
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 300;
-	}
-
-	.montserrat {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 400;
-	}
-
-	.montserrat-semibold {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 600;
-	}
-
-	.montserrat-light {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
-	}
-
-	.source {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-	}
-
-	.source-light {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
-	}
-
-	/* END FONTS */
-
 	/* TEXT */
 
 	/* index */
@@ -1428,8 +1384,9 @@
 		line-height: 30px;
 		color: #754c24;
 	}
+	/* Josefin Sans */
 	#ptext {
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 700;
 		color: #754c24;
 		font-size: 11px;

@@ -299,7 +299,8 @@ footer div {
 	text-align: center;
 	color: #999999;
 	background-color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	/* Josefin Sans */
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
 
@@ -317,8 +318,9 @@ footer div {
 	padding-bottom: 1vw;
 	font-size: 1.5vw;
 	color: darkred;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
+	/* Josefin Sans */
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 }
 #sfc {
 	width: 12vw;
@@ -1848,18 +1850,20 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 /* FONTS */
 
+/* Josefin Sans */
+
 .josefin {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 }
 
 .josefin-bold {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 700;
 }
 
 .josefin-light {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
 
@@ -2080,8 +2084,9 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	line-height: 3vw;
 	color: #754c24;
 }
+/* Josefin Sans */
 #ptext {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 700;
 	color: #754c24;
 	font-size: 1.1vw;
