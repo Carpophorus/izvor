@@ -1381,25 +1381,25 @@
 	}
 	#h2tx-circle {
 		position: absolute;
-		top: 33px;
-		left: -10px;
+		bottom: -10px;
+		left: 10px;
 	}
 	#h2ty {
 		position: absolute;
 		left: -20px;
-		top: 14px;
+		top: 2.4vh;
 		padding-left: 40px;
-		height: 30px;
-		font-size: 25px;
-		line-height: 30px;
+		height: 6vh;
+		font-size: 5vh;
+		line-height: 6vh;
 		color: white;
 		border-bottom: 0.1vw solid #a0a0a0;
 	}
 	#h2tz {
-		padding-right: 7vw;
-		padding-left: 9vw;
-		padding-top: 3vw;
-		padding-bottom: 3vw;
+		padding-right: 7vh;
+		padding-left: 22vh;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
 		font-size: 3vh;
 		line-height: 4vh;
 		text-align: justify;
