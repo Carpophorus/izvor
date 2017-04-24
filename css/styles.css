@@ -2087,9 +2087,10 @@ a:link, a:visited, a:hover, a:focus, a:active {
 /* Josefin Sans */
 #ptext {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	color: #754c24;
-	font-size: 1.1vw;
+	font-size: 1.6vw;
+	line-height: 1.9vw;
 	padding-top: 0.7vw;
 	text-align: center;
 	width: 100%;
