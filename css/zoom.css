@@ -501,7 +501,7 @@
 		background-size: 100% auto;
 		background-position: center;
 		width: 1000px;
-		height: 700px;
+		height: 850px;
 		position: relative;
 		margin: auto;
 	}
@@ -1556,6 +1556,13 @@
 		width: 400px;
 		height: 135px;
 	}
+	#pdf-container-3 {
+		position: absolute;
+		top: 600px;
+		left: 31%;
+		width: 400px;
+		height: 135px;
+	}
 	#pdf-t1 {
 		position: absolute;
 		font-size: 18px;
@@ -1583,7 +1590,7 @@
 		height: 66px;
 		width: 255px;
 		top: 40px;
-		right: 40.6%;
+		right: 42.35%;
 		z-index: 31;
 	}
 	#dct1 {
