@@ -182,7 +182,7 @@
 		border-bottom: 0.07vw solid #AAAAAA;
 	}
 	#fb {
-		background: url('../img/fb.svg') no-repeat;
+		background: url('../img/fb.png') no-repeat;
 		background-size: 26px auto;
 		background-position: center;
 		width: 40px;
@@ -190,7 +190,7 @@
 		float: left;
 	}
 	#ig {
-		background: url('../img/ig.svg') no-repeat;
+		background: url('../img/ig.png') no-repeat;
 		background-size: 26px auto;
 		background-position: center;
 		width: 40px;
@@ -215,7 +215,7 @@
 	}
 
 	#lace {
-		background: url('../img/lace.svg') repeat;
+		background: url('../img/lace.png') repeat;
 		background-size: auto 42px;
 		background-position: top;
 		width: 100%;
@@ -1013,7 +1013,7 @@
 		left: 85px;
 	}
 	#pdf-image {
-		background: url('../img/dokumenti/pdf.svg') no-repeat;
+		background: url('../img/dokumenti/pdf.png') no-repeat;
 		background-size: 100% auto;
 		height: 80px;
 		width: 80px;

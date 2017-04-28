@@ -143,7 +143,7 @@ li h2 {
 }
 
 #slogan-mobile {
-	background: url('../img/slogan mobile.svg') no-repeat;
+	background: url('../img/slogan mobile.png') no-repeat;
 	background-size: 100% auto;
 	position: fixed;
 	z-index: 105;
@@ -182,7 +182,7 @@ li h2 {
 	border-bottom: 0.07vw solid #AAAAAA;
 }
 #fb {
-	background: url('../img/fb.svg') no-repeat;
+	background: url('../img/fb.png') no-repeat;
 	background-size: 2.6vw auto;
 	background-position: center;
 	width: 4vw;
@@ -190,7 +190,7 @@ li h2 {
 	float: left;
 }
 #ig {
-	background: url('../img/ig.svg') no-repeat;
+	background: url('../img/ig.png') no-repeat;
 	background-size: 2.6vw auto;
 	background-position: center;
 	width: 4vw;
@@ -215,7 +215,7 @@ li h2 {
 }
 
 #lace {
-	background: url('../img/lace.svg') no-repeat;
+	background: url('../img/lace.png') no-repeat;
 	background-size: 110% auto;
 	background-position: top;
 	width: 100%;
@@ -263,7 +263,7 @@ li h2 {
 }
 
 #menu-icon {
-	background: url('../img/menu.svg') no-repeat;
+	background: url('../img/menu.png') no-repeat;
 	background-size: 7vw 7vw;
 	background-position: center;
 	width: 7vw;
@@ -329,7 +329,7 @@ footer div {
 	margin: auto;
 }
 #fbf {
-	background: url('../img/fb.svg') no-repeat;
+	background: url('../img/fb.png') no-repeat;
 	background-size: 3vw auto;
 	background-position: center;
 	width: 4vw;
@@ -338,7 +338,7 @@ footer div {
 	margin-left: 2vw;
 }
 #igf {
-	background: url('../img/ig.svg') no-repeat;
+	background: url('../img/ig.png') no-repeat;
 	background-size: 3vw auto;
 	background-position: center;
 	width: 4vw;
@@ -1609,7 +1609,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	left: 8.5vw;
 }
 #pdf-image {
-	background: url('../img/dokumenti/pdf.svg') no-repeat;
+	background: url('../img/dokumenti/pdf.png') no-repeat;
 	background-size: 100% auto;
 	height: 8vw;
 	width: 8vw;
@@ -2921,7 +2921,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 		margin: auto;
 	}
 	#fbf {
-		background: url('../img/fb.svg') no-repeat;
+		background: url('../img/fb.png') no-repeat;
 		background-size: 6.5vh auto;
 		background-position: center;
 		width: 9vh;
@@ -2930,7 +2930,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 		margin-left: 1vh;
 	}
 	#igf {
-		background: url('../img/ig.svg') no-repeat;
+		background: url('../img/ig.png') no-repeat;
 		background-size: 6.5vh auto;
 		background-position: center;
 		width: 9vh;
