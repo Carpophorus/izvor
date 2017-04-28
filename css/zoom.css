@@ -498,10 +498,10 @@
 
 	#main-content #docs2 {
 		background: url('../img/dokumenti/docs2.png') no-repeat;
-		background-size: 100% auto;
+		background-size: auto 100%;
 		background-position: center;
 		width: 1000px;
-		height: 850px;
+		height: 1060px;
 		position: relative;
 		margin: auto;
 	}
@@ -1560,6 +1560,13 @@
 	#pdf-container-3 {
 		position: absolute;
 		top: 600px;
+		left: 31%;
+		width: 400px;
+		height: 135px;
+	}
+	#pdf-container-4 {
+		position: absolute;
+		top: 800px;
 		left: 31%;
 		width: 400px;
 		height: 135px;
