@@ -501,7 +501,7 @@
 		background-size: auto 100%;
 		background-position: center;
 		width: 1000px;
-		height: 1260px;
+		height: 1460px;
 		position: relative;
 		margin: auto;
 	}
@@ -1574,6 +1574,13 @@
 	#pdf-container-5 {
 		position: absolute;
 		top: 1000px;
+		left: 31%;
+		width: 400px;
+		height: 135px;
+	}
+	#pdf-container-6 {
+		position: absolute;
+		top: 1200px;
 		left: 31%;
 		width: 400px;
 		height: 135px;

@@ -849,7 +849,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	background-size: auto 100%;
 	background-position: center;
 	width: 100%;
-	height: 126vw;
+	height: 146vw;
 	position: relative;
 }
 #docs3 {
@@ -2279,6 +2279,13 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #pdf-container-5 {
 	position: absolute;
 	top: 100vw;
+	left: 31%;
+	width: 40vw;
+	height: 13.5vw;
+}
+#pdf-container-6 {
+	position: absolute;
+	top: 120vw;
 	left: 31%;
 	width: 40vw;
 	height: 13.5vw;
